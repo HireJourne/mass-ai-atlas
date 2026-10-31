@@ -17,3 +17,8 @@ node_modules/
 # Playwright output (run: npm run test:e2e)
 test-results/
 playwright-report/
+
+# Atlas Weave fetch cache
+weave/.cache/
+weave/backups/
+weave/events-cache.json

@@ -1,0 +1,794 @@
+{
+  "started": "2026-10-31T18:18:46.284Z",
+  "leads": 41,
+  "organizations": 39,
+  "matched": [],
+  "possible": [
+    {
+      "name": "Harvard Online",
+      "city": "Cambridge",
+      "sources": [
+        "GitHub organization search"
+      ],
+      "dedupe": "possible",
+      "reasons": [
+        "name \"Harvard Online\" overlaps \"Harvard Ventures\" (harvard-ventures)"
+      ],
+      "records": [
+        {
+          "source": "GitHub organization search",
+          "url": "https://github.com/harvardonline",
+          "quote": "Harvard Online (github.com/harvardonline) · location \"Cambridge, Massachusetts, USA\" · no description · created 2024-01-18"
+        }
+      ],
+      "entities": [
+        "harvard-ventures"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "name": "BOSTON AI LLC",
+      "city": "MEDFIELD",
+      "sources": [
+        "NIH RePORTER"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"boston ai\""
+      ],
+      "records": [
+        {
+          "source": "NIH RePORTER",
+          "url": "https://reporter.nih.gov/project-details/11253812",
+          "quote": "BOSTON AI LLC · MEDFIELD, MA · NIH SBIR/STTR · \"An AI Enabled Training Tool for Complex Surgical Suturing Skills\" · 2025-09-01"
+        }
+      ],
+      "proposal": "2b8bd37e90",
+      "distanceKm": 28,
+      "outsideBoston": true,
+      "westOfWorcester": false
+    },
+    {
+      "name": "TRICAN HEALTH, INC",
+      "city": "LEXINGTON",
+      "sources": [
+        "NIH RePORTER"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"trican health\""
+      ],
+      "records": [
+        {
+          "source": "NIH RePORTER",
+          "url": "https://reporter.nih.gov/project-details/11312246",
+          "quote": "TRICAN HEALTH, INC · LEXINGTON, MA · NIH SBIR/STTR · \"Overcoming Access Barriers to Cancer Clinical Trials via an Innovative Platform for Matching Patients to Trials and Resources\" · 2026-09-14"
+        }
+      ],
+      "proposal": "80a1775d27",
+      "distanceKm": 17,
+      "outsideBoston": false,
+      "westOfWorcester": false
+    },
+    {
+      "name": "VECTORWAVE CORPORATION",
+      "city": "AUBURNDALE",
+      "sources": [
+        "NSF Awards API"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"vectorwave\", or address"
+      ],
+      "records": [
+        {
+          "source": "NSF Awards API",
+          "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2528405",
+          "quote": "VECTORWAVE CORPORATION · 77 ROWE ST UNIT 001E, AUBURNDALE, MA 024661532 · SBIR Phase I · \"SBIR Phase I: Spectrum Coexistence Digital Twin\" · 09/04/2025"
+        }
+      ],
+      "proposal": "54980c5859",
+      "distanceKm": 15,
+      "outsideBoston": false,
+      "westOfWorcester": false
+    },
+    {
+      "name": "H2C ENERGY INC.",
+      "city": "WOBURN",
+      "sources": [
+        "NSF Awards API"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"h2c energy\", or address"
+      ],
+      "records": [
+        {
+          "source": "NSF Awards API",
+          "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2528067",
+          "quote": "H2C ENERGY INC. · 32 WALTHAM ST, WOBURN, MA 018015970 · STTR Phase I · \"STTR Phase I: High Throughput Discovery of Catalysts for Water Electrolysis Anion-Exchange Membranes\" · 08/27/2025"
+        }
+      ],
+      "proposal": "6c0655302d",
+      "distanceKm": 15,
+      "outsideBoston": false,
+      "westOfWorcester": false
+    },
+    {
+      "name": "ORION WAVE TECHNOLOGY CORPORATION",
+      "city": "ARLINGTON",
+      "sources": [
+        "NSF Awards API"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"orion wave technology\", or address"
+      ],
+      "records": [
+        {
+          "source": "NSF Awards API",
+          "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2531891",
+          "quote": "ORION WAVE TECHNOLOGY CORPORATION · 51 WRIGHT ST, ARLINGTON, MA 024742452 · SBIR Phase I · \"SBIR Phase I: Analog Neural Networks Enabled by Tunable Apertures\" · 08/18/2026"
+        }
+      ],
+      "proposal": "525f29695b",
+      "distanceKm": 13,
+      "outsideBoston": false,
+      "westOfWorcester": false
+    },
+    {
+      "name": "HOPEFUL AGING LLC",
+      "city": "WINCHESTER",
+      "sources": [
+        "NIH RePORTER"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"hopeful aging\""
+      ],
+      "records": [
+        {
+          "source": "NIH RePORTER",
+          "url": "https://reporter.nih.gov/project-details/10991402",
+          "quote": "HOPEFUL AGING LLC · WINCHESTER, MA · NIH SBIR/STTR · \"The BRAIN App: Building Relationships using Artificial Intelligence and Nostalgia\" · 2021-08-15"
+        }
+      ],
+      "proposal": "4f3c714587",
+      "distanceKm": 12,
+      "outsideBoston": false,
+      "westOfWorcester": false
+    },
+    {
+      "name": "LABBY INC.",
+      "city": "BRIGHTON",
+      "sources": [
+        "NIH RePORTER"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"labby\""
+      ],
+      "records": [
+        {
+          "source": "NIH RePORTER",
+          "url": "https://reporter.nih.gov/project-details/11068071",
+          "quote": "LABBY INC. · BRIGHTON, MA · NIH SBIR/STTR · \"Development of a milk analyzing technology for the detection of antibiotic contamination using fluorescence spectroscopy and artificial intelligence.\" · 2026-09-30"
+        }
+      ],
+      "proposal": "14093f350b",
+      "distanceKm": 8,
+      "outsideBoston": false,
+      "westOfWorcester": false
+    },
+    {
+      "name": "SET THERAPEUTICS INC",
+      "city": "SOMERVILLE",
+      "sources": [
+        "NSF Awards API"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"set therapeutics\", or address"
+      ],
+      "records": [
+        {
+          "source": "NSF Awards API",
+          "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2537433",
+          "quote": "SET THERAPEUTICS INC · 65 HALL AVE, SOMERVILLE, MA 021442003 · SBIR Phase I · \"SBIR Phase I: Isolating and Reformatting Immune Receptors into Targeting Therapies for Oncology, Auto-Immunity, and Infectious Diseases\" · 06/23/2026"
+        }
+      ],
+      "proposal": "c5b9d76b19",
+      "distanceKm": 6,
+      "outsideBoston": false,
+      "westOfWorcester": false
+    },
+    {
+      "name": "STEALTH LABS INC.",
+      "city": "BROOKLINE",
+      "sources": [
+        "NIH RePORTER"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"stealth labs\""
+      ],
+      "records": [
+        {
+          "source": "NIH RePORTER",
+          "url": "https://reporter.nih.gov/project-details/11408674",
+          "quote": "STEALTH LABS INC. · BROOKLINE, MA · NIH SBIR/STTR · \"REST- Respiratory Ear System for CPAP Therapy adherence\" · 2026-09-05"
+        }
+      ],
+      "proposal": "05c1f03bba",
+      "distanceKm": 6,
+      "outsideBoston": false,
+      "westOfWorcester": false
+    },
+    {
+      "name": "ENVIRONMENT AND HEALTH GROUP, INC.",
+      "city": "CAMBRIDGE",
+      "sources": [
+        "NIH RePORTER"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"environment and health\""
+      ],
+      "records": [
+        {
+          "source": "NIH RePORTER",
+          "url": "https://reporter.nih.gov/project-details/11350027",
+          "quote": "ENVIRONMENT AND HEALTH GROUP, INC. · CAMBRIDGE, MA · NIH SBIR/STTR · \"HeartSense.AI: A Generative AI-Driven Mobile Health Solution to Improve Hypertension Control Among Lower Income Adults\" · 2026-08-05"
+        }
+      ],
+      "proposal": "1f638ed488",
+      "distanceKm": 4,
+      "outsideBoston": false,
+      "westOfWorcester": false
+    },
+    {
+      "name": "CIPHERSONIC LABS INC",
+      "city": "CAMBRIDGE",
+      "sources": [
+        "NSF Awards API"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"ciphersonic labs\", or address"
+      ],
+      "records": [
+        {
+          "source": "NSF Awards API",
+          "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2528288",
+          "quote": "CIPHERSONIC LABS INC · 217 THORNDIKE ST APT 209, CAMBRIDGE, MA 021411505 · SBIR Phase I · \"SBIR Phase I: Bridging Multi-Party Computation and Fully Homomorphic Encryption for Practical Data Security Solutions\" · 08/21/2025"
+        },
+        {
+          "source": "NSF Awards API",
+          "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2528288",
+          "quote": "CIPHERSONIC LABS INC · 217 THORNDIKE ST APT 209, CAMBRIDGE, MA 021411505 · SBIR Phase I · \"SBIR Phase I: Bridging Multi-Party Computation and Fully Homomorphic Encryption for Practical Data Security Solutions\" · 08/21/2025"
+        }
+      ],
+      "proposal": "df1558e811",
+      "distanceKm": 3,
+      "outsideBoston": false,
+      "westOfWorcester": false
+    },
+    {
+      "name": "BETAFELD LLC",
+      "city": "CAMBRIDGE",
+      "sources": [
+        "NSF Awards API"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"betafeld\", or address"
+      ],
+      "records": [
+        {
+          "source": "NSF Awards API",
+          "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2537269",
+          "quote": "BETAFELD LLC · 245 FIRST STREET, CAMBRIDGE, MA 021421200 · SBIR Phase II · \"SBIR Phase II: Improved Utilization through Artificial Intelligence and Prescriptive Logistics\" · 07/21/2026"
+        }
+      ],
+      "proposal": "63b4227bc9",
+      "distanceKm": 2,
+      "outsideBoston": false,
+      "westOfWorcester": false
+    },
+    {
+      "name": "QUANTUM FORMATICS CORP.",
+      "city": "CAMBRIDGE",
+      "sources": [
+        "NSF Awards API"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"quantum formatics\", or address"
+      ],
+      "records": [
+        {
+          "source": "NSF Awards API",
+          "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2528312",
+          "quote": "QUANTUM FORMATICS CORP. · 144 SPRING ST APT 2, CAMBRIDGE, MA 021412070 · SBIR Phase I · \"SBIR Phase I: AI-Accelerate Superconductor Discovery for High-Field Magnets\" · 09/04/2025"
+        }
+      ],
+      "proposal": "19f9ac5c88",
+      "distanceKm": 2,
+      "outsideBoston": false,
+      "westOfWorcester": false
+    },
+    {
+      "name": "RAYLIFE INC.",
+      "city": "BOSTON",
+      "sources": [
+        "NSF Awards API"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"raylife\", or address"
+      ],
+      "records": [
+        {
+          "source": "NSF Awards API",
+          "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2537536",
+          "quote": "RAYLIFE INC. · 12 CHANNEL ST STE 202, BOSTON, MA 022102399 · SBIR Phase I · \"SBIR Phase I: Development of Novel Optoelectronics Technology for Non-Invasive, Continuous Blood Glucose Monitoring\" · 06/17/2026"
+        }
+      ],
+      "proposal": "464338df1e",
+      "distanceKm": 2,
+      "outsideBoston": false,
+      "westOfWorcester": false
+    },
+    {
+      "name": "BEHAVIOR CHANGE HUB LIMITED LIABILITY COMPANY",
+      "city": "Boston",
+      "sources": [
+        "NIH RePORTER"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"behavior change hub liability\""
+      ],
+      "records": [
+        {
+          "source": "NIH RePORTER",
+          "url": "https://reporter.nih.gov/project-details/11240509",
+          "quote": "BEHAVIOR CHANGE HUB LIMITED LIABILITY COMPANY · Boston, MA · NIH SBIR/STTR · \"Addiction Application Gradebook: Fostering greater public health impact from mHealth applications for SUD\" · 2026-06-15"
+        }
+      ],
+      "proposal": "99ac1dace5",
+      "distanceKm": 0,
+      "outsideBoston": false,
+      "westOfWorcester": false
+    }
+  ],
+  "dropped": [
+    {
+      "name": "Group Investments Corp",
+      "city": "Lowell",
+      "sources": [
+        "GitHub organization search"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"investments\", website groupinvestmentscorp.com"
+      ],
+      "records": [
+        {
+          "source": "GitHub organization search",
+          "url": "https://github.com/Group-Investments-Corp",
+          "quote": "Group Investments Corp (github.com/Group-Investments-Corp) · location \"Lowell, Massachusetts\" · Technology-driven holding company operating real estate and property management businesses, incl. DeRosa Properties. · created 2026-10-22"
+        }
+      ],
+      "why": "GitHub org whose description shows no AI work"
+    },
+    {
+      "name": "Eggz",
+      "city": "Massachusetts",
+      "sources": [
+        "GitHub organization search"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"eggz\", website myeggz.com"
+      ],
+      "records": [
+        {
+          "source": "GitHub organization search",
+          "url": "https://github.com/myeggz",
+          "quote": "Eggz (github.com/myeggz) · location \"Massachusetts, USA\" · Investing for real life, not Wall Street. An SEC-registered investment adviser. · created 2026-10-19"
+        }
+      ],
+      "why": "GitHub org whose description shows no AI work"
+    },
+    {
+      "name": "Lithi",
+      "city": "Massachusetts",
+      "sources": [
+        "GitHub organization search"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"lithi\", website lithi.ai"
+      ],
+      "records": [
+        {
+          "source": "GitHub organization search",
+          "url": "https://github.com/lithi-ai",
+          "quote": "Lithi (github.com/lithi-ai) · location \"Massachusetts, United States\" · Run supported batch work through Lithi from the agent and developer tools you already use. · created 2026-09-18"
+        }
+      ],
+      "why": "GitHub org whose description shows no AI work"
+    },
+    {
+      "name": "ma.us.rule.law",
+      "city": "Massachusetts",
+      "sources": [
+        "GitHub organization search"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"ma us rule law\", website rule.law"
+      ],
+      "records": [
+        {
+          "source": "GitHub organization search",
+          "url": "https://github.com/us-ma-rule-law",
+          "quote": "ma.us.rule.law (github.com/us-ma-rule-law) · location \"Massachusetts, United States\" · Rule Institute composition layer for Massachusetts — ma.us.rule.law · created 2026-08-03"
+        }
+      ],
+      "why": "GitHub org whose description shows no AI work"
+    },
+    {
+      "name": "TEKKOS",
+      "city": "Massachusetts",
+      "sources": [
+        "GitHub organization search"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"tekkos\", website tekkos.io"
+      ],
+      "records": [
+        {
+          "source": "GitHub organization search",
+          "url": "https://github.com/tekkos-io",
+          "quote": "TEKKOS (github.com/tekkos-io) · location \"Massachusetts, USA\" · Restaurant Technology That Just Works · created 2026-03-23"
+        }
+      ],
+      "why": "GitHub org whose description shows no AI work"
+    },
+    {
+      "name": "Renewal Initiatives Inc",
+      "city": "Massachusetts",
+      "sources": [
+        "GitHub organization search"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"renewal initiatives\", website renewalinitiatives.org"
+      ],
+      "records": [
+        {
+          "source": "GitHub organization search",
+          "url": "https://github.com/Renewal-Initiatives-Inc",
+          "quote": "Renewal Initiatives Inc (github.com/Renewal-Initiatives-Inc) · location \"Massachusetts\" · 501(c)(3) nonprofit — affordable housing & regenerative agriculture in Massachusetts · created 2026-02-01"
+        }
+      ],
+      "why": "GitHub org whose description shows no AI work"
+    },
+    {
+      "name": "Lisia",
+      "city": "Boston",
+      "sources": [
+        "GitHub organization search"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"lisia\", website lisia.io"
+      ],
+      "records": [
+        {
+          "source": "GitHub organization search",
+          "url": "https://github.com/Lisiasuperapp",
+          "quote": "Lisia (github.com/Lisiasuperapp) · location \"Boston, Massachusetts\" · no description · created 2025-12-23"
+        },
+        {
+          "source": "GitHub organization search",
+          "url": "https://github.com/Lisia671",
+          "quote": "Lisia (github.com/Lisia671) · location \"Boston, Massachusetts\" · no description · created 2025-12-23"
+        }
+      ],
+      "why": "GitHub org whose description shows no AI work"
+    },
+    {
+      "name": "Senterrah",
+      "city": "Boston",
+      "sources": [
+        "GitHub organization search"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"senterrah\", website senterrah.com"
+      ],
+      "records": [
+        {
+          "source": "GitHub organization search",
+          "url": "https://github.com/Senterrah",
+          "quote": "Senterrah (github.com/Senterrah) · location \"Boston, Massachusetts \" · no description · created 2025-11-24"
+        }
+      ],
+      "why": "GitHub org whose description shows no AI work"
+    },
+    {
+      "name": "Grace House Institute, Inc.",
+      "city": "Massachusetts",
+      "sources": [
+        "GitHub organization search"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"grace house institute\", website gracehouse.institute"
+      ],
+      "records": [
+        {
+          "source": "GitHub organization search",
+          "url": "https://github.com/ghi-admin",
+          "quote": "Grace House Institute, Inc. (github.com/ghi-admin) · location \"Massachusetts\" · no description · created 2022-12-19"
+        }
+      ],
+      "why": "GitHub org whose description shows no AI work"
+    },
+    {
+      "name": "Pocket Galaxy LLC",
+      "city": "Cape Ann",
+      "sources": [
+        "GitHub organization search"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"pocket galaxy\", website pocketgalaxy.io"
+      ],
+      "records": [
+        {
+          "source": "GitHub organization search",
+          "url": "https://github.com/pocketgalaxyllc",
+          "quote": "Pocket Galaxy LLC (github.com/pocketgalaxyllc) · location \"Cape Ann, Massachusetts\" · no description · created 2021-12-17"
+        }
+      ],
+      "why": "GitHub org whose description shows no AI work"
+    },
+    {
+      "name": "Global Hexagonal Awareness Project",
+      "city": "Massachusetts",
+      "sources": [
+        "GitHub organization search"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"global hexagonal awareness project\", website hexagon.link"
+      ],
+      "records": [
+        {
+          "source": "GitHub organization search",
+          "url": "https://github.com/hexagonalawareness",
+          "quote": "Global Hexagonal Awareness Project (github.com/hexagonalawareness) · location \"Massachusetts\" · Working together towards a more hexagonal world. · created 2021-06-17"
+        }
+      ],
+      "why": "GitHub org whose description shows no AI work"
+    },
+    {
+      "name": "greenGoat",
+      "city": "Boston",
+      "sources": [
+        "GitHub organization search"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"greengoat\""
+      ],
+      "records": [
+        {
+          "source": "GitHub organization search",
+          "url": "https://github.com/greenGoatGit",
+          "quote": "greenGoat (github.com/greenGoatGit) · location \"Boston, Massachusetts \" · no description · created 2021-06-09"
+        }
+      ],
+      "why": "GitHub org whose description shows no AI work"
+    },
+    {
+      "name": "pulamusicMedia",
+      "city": "Massachusetts",
+      "sources": [
+        "GitHub organization search"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"pulamusicmedia\", website pulamusic.github.io"
+      ],
+      "records": [
+        {
+          "source": "GitHub organization search",
+          "url": "https://github.com/pulamusicMedia",
+          "quote": "pulamusicMedia (github.com/pulamusicMedia) · location \"Massachusetts, United States\" · Instructional design for the humanities · created 2021-05-20"
+        }
+      ],
+      "why": "GitHub org whose description shows no AI work"
+    },
+    {
+      "name": "Shamaym",
+      "city": "Boston",
+      "sources": [
+        "GitHub organization search"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"shamaym\", website shamaym.com"
+      ],
+      "records": [
+        {
+          "source": "GitHub organization search",
+          "url": "https://github.com/Shamaym",
+          "quote": "Shamaym (github.com/Shamaym) · location \"Boston, MASSACHUSETTS (MA)\" · no description · created 2021-05-06"
+        }
+      ],
+      "why": "GitHub org whose description shows no AI work"
+    },
+    {
+      "name": "Massachusetts COVID Vaccine Finder",
+      "city": "Massachusetts",
+      "sources": [
+        "GitHub organization search"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"massachusetts covid vaccine finder\", website macovidvaccinefinder.org"
+      ],
+      "records": [
+        {
+          "source": "GitHub organization search",
+          "url": "https://github.com/MA-COVID-Vaccine-Finder",
+          "quote": "Massachusetts COVID Vaccine Finder (github.com/MA-COVID-Vaccine-Finder) · location \"Massachusetts\" · Finding a vaccine in MA shouldn’t be a full time job. We’re here to help. · created 2021-04-08"
+        }
+      ],
+      "why": "GitHub org whose description shows no AI work"
+    },
+    {
+      "name": "CloudScape Software",
+      "city": "Massachusetts",
+      "sources": [
+        "GitHub organization search"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"cloudscape software\", website cloudscape.space"
+      ],
+      "records": [
+        {
+          "source": "GitHub organization search",
+          "url": "https://github.com/CloudScapeMDH",
+          "quote": "CloudScape Software (github.com/CloudScapeMDH) · location \"Massachusetts, USA\" · The finest cloud solutions in the sky. - An MDH Company · created 2021-03-22"
+        }
+      ],
+      "why": "GitHub org whose description shows no AI work"
+    },
+    {
+      "name": "Team Boston Children's Hospital",
+      "city": "University of Massachusetts Boston",
+      "sources": [
+        "GitHub organization search"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"team boston children s hospital\""
+      ],
+      "records": [
+        {
+          "source": "GitHub organization search",
+          "url": "https://github.com/CS-410",
+          "quote": "Team Boston Children's Hospital (github.com/CS-410) · location \"University of Massachusetts Boston\" · Spring 2021 CS 410 · created 2021-03-19"
+        }
+      ],
+      "why": "GitHub org whose description shows no AI work"
+    },
+    {
+      "name": "Vrrge",
+      "city": "Massachusetts",
+      "sources": [
+        "GitHub organization search"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"vrrge\", website vrrge.com"
+      ],
+      "records": [
+        {
+          "source": "GitHub organization search",
+          "url": "https://github.com/Vrrge",
+          "quote": "Vrrge (github.com/Vrrge) · location \"Massachusetts\" · no description · created 2021-03-11"
+        }
+      ],
+      "why": "GitHub org whose description shows no AI work"
+    },
+    {
+      "name": "Campus Access",
+      "city": "Amherst",
+      "sources": [
+        "GitHub organization search"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"campus access\", website campus-access.github.io"
+      ],
+      "records": [
+        {
+          "source": "GitHub organization search",
+          "url": "https://github.com/Campus-Access",
+          "quote": "Campus Access (github.com/Campus-Access) · location \"Amherst, Massachusetts\" · Campus Access is an accessible wayfinding mobile application that allows for turn-by-turn direction around the University of Massachusetts · created 2021-02-24"
+        }
+      ],
+      "why": "GitHub org whose description shows no AI work"
+    },
+    {
+      "name": "Charlie Charles",
+      "city": "Massachusetts",
+      "sources": [
+        "GitHub organization search"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"charlie charles\""
+      ],
+      "records": [
+        {
+          "source": "GitHub organization search",
+          "url": "https://github.com/CharlieCharlesSoftware",
+          "quote": "Charlie Charles (github.com/CharlieCharlesSoftware) · location \"Massachusetts, U.S.\" · no description · created 2021-02-12"
+        }
+      ],
+      "why": "GitHub org whose description shows no AI work"
+    },
+    {
+      "name": "uploadsafely",
+      "city": "Massachusetts",
+      "sources": [
+        "GitHub organization search"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"uploadsafely\""
+      ],
+      "records": [
+        {
+          "source": "GitHub organization search",
+          "url": "https://github.com/uploadsafely",
+          "quote": "uploadsafely (github.com/uploadsafely) · location \"Massachusetts\" · no description · created 2021-02-08"
+        }
+      ],
+      "why": "GitHub org whose description shows no AI work"
+    },
+    {
+      "name": "Worthington Assembly Inc.",
+      "city": "South Deerfield",
+      "sources": [
+        "GitHub organization search"
+      ],
+      "dedupe": "new",
+      "reasons": [
+        "no entry matches name \"worthington assembly\", website worthingtonassembly.com"
+      ],
+      "records": [
+        {
+          "source": "GitHub organization search",
+          "url": "https://github.com/Worthington-Assembly",
+          "quote": "Worthington Assembly Inc. (github.com/Worthington-Assembly) · location \"South Deerfield, Massachusetts\" · no description · created 2021-02-04"
+        }
+      ],
+      "why": "GitHub org whose description shows no AI work"
+    }
+  ],
+  "proposals": 15,
+  "refusals": 2,
+  "finished": "2026-10-31T18:18:46.430Z"
+}

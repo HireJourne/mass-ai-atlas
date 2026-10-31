@@ -1,0 +1,2953 @@
+[
+  {
+    "id": "599afbe41e",
+    "status": "pending",
+    "created": "2026-10-31T16:42:51.298Z",
+    "entity": "berkshire-grey",
+    "entityName": "Berkshire Grey",
+    "module": "scout",
+    "field": "loc",
+    "op": "confirm",
+    "confidence": "two-source",
+    "before": {
+      "loc": "140 South Rd, Bedford",
+      "lat": 42.4854,
+      "lng": -71.2756,
+      "approx": false
+    },
+    "after": {
+      "loc": "140 South Rd, Bedford",
+      "lat": 42.4854,
+      "lng": -71.2756,
+      "approx": false
+    },
+    "summary": "Confirm \"140 South Rd, Bedford\" — on the org's site, and OSM places it 3 m from the pin",
+    "evidence": {
+      "source_url": "https://www.berkshiregrey.com/contact-us/",
+      "quote": "press inquiries: press@berkshiregrey.com Contact form Our Locations Headquarters – Bedford, MA 140 South Road. Bedford, MA 01730 Pittsburgh, PA 526 Alpha Drive, Pittsburgh, PA. 15238 The Netherlands Kuppersweg 29, 2031",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/way/211980298",
+      "detail": "Berkshire Grey, 140, South Road, Bedford, Middlesex County, Massachusetts, 01730, United States (42.485384, -71.2755741)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=140%20South%20Rd%2C%20Bedford%2C%20Massachusetts"
+    },
+    "staged": false
+  },
+  {
+    "id": "4b39847dc8",
+    "status": "pending",
+    "created": "2026-10-31T16:42:51.660Z",
+    "entity": "wpi",
+    "entityName": "WPI AI Programs",
+    "module": "scout",
+    "field": "loc",
+    "op": "confirm",
+    "confidence": "two-source",
+    "before": {
+      "loc": "100 Institute Rd, Worcester",
+      "lat": 42.2746,
+      "lng": -71.8063,
+      "approx": false
+    },
+    "after": {
+      "loc": "100 Institute Rd, Worcester",
+      "lat": 42.2746,
+      "lng": -71.8063,
+      "approx": false
+    },
+    "summary": "Confirm \"100 Institute Rd, Worcester\" — on the org's site, and OSM places it 180 m from the pin",
+    "evidence": {
+      "source_url": "https://www.wpi.edu/about/ai",
+      "quote": "Outreach Library Offices Topics Student Resources & Support WORCESTER POLYTECHNIC INSTITUTE 100 Institute Road Worcester , MA | 01609-2280 Ph: 508-831-5000 Contact Us | Visit WPI | Accessibility | Privacy | Cookie",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/relation/12130031",
+      "detail": "Worcester Polytechnic Institute, 100, Institute Road, Hammond Heights, Worcester, Worcester County, Massachusetts, 01609, United States (42.274315, -71.8084567)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=100%20Institute%20Rd%2C%20Worcester%2C%20Massachusetts"
+    },
+    "census": {
+      "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=100+Institute+Rd%2C+Worcester%2C+MA&benchmark=Public_AR_Current&format=json",
+      "detail": "Census matched \"100 INSTITUTE RD, WORCESTER, MA, 01609\", 439 m from the current pin",
+      "agrees": false
+    },
+    "staged": false
+  },
+  {
+    "id": "7bc8bf6061",
+    "status": "pending",
+    "created": "2026-10-31T16:42:52.001Z",
+    "entity": "tufts",
+    "entityName": "Tufts CS & HRI Lab",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [],
+    "after": "tufts-ai-institute",
+    "summary": "Link Tufts CS & HRI Lab → Tufts Institute for Artificial Intelligence",
+    "evidence": {
+      "source_url": "https://engineering.tufts.edu/cs/",
+      "quote": "link \"Tufts Institute for Artificial Intelligence\" → https://ai.tufts.edu/",
+      "kind": "official site (hyperlink to its official site)"
+    },
+    "corroboration": {
+      "kind": "reciprocal atlas link",
+      "source_url": "https://github.com/holzerjm/mass-ai-atlas/blob/main/data/entities.yml#L287",
+      "detail": "Tufts Institute for Artificial Intelligence (tufts-ai-institute) already lists tufts in its links — a person verified that edge"
+    },
+    "staged": false
+  },
+  {
+    "id": "1e63ee68b1",
+    "status": "pending",
+    "created": "2026-10-31T16:42:52.198Z",
+    "entity": "venx",
+    "entityName": "Ven^X",
+    "module": "scout",
+    "field": "loc",
+    "op": "confirm",
+    "confidence": "two-source",
+    "before": {
+      "loc": "125 High St, Boston",
+      "lat": 42.3553,
+      "lng": -71.0541,
+      "approx": false
+    },
+    "after": {
+      "loc": "125 High St, Boston",
+      "lat": 42.3553,
+      "lng": -71.0541,
+      "approx": false
+    },
+    "summary": "Confirm \"125 High St, Boston\" — on the org's site, and OSM places it 63 m from the pin",
+    "evidence": {
+      "source_url": "https://www.venx.vc/",
+      "quote": "and knowledge sharing EXPLORE About Perspective Members Events CONNECT WITH US SEND MESSAGE 125 High St., Floor 21, Boston, MA 02210 info@venx.vc &copy; 2025 ven x . All rights reserved. Connected to the future ven x",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/relation/6778334",
+      "detail": "High Street Tower, 125, High Street, Waterfront, Downtown, Boston, Suffolk County, Massachusetts, 02110, United States (42.3550474, -71.053416)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=125%20High%20St%2C%20Boston%2C%20Massachusetts"
+    },
+    "staged": false
+  },
+  {
+    "id": "822fb5ecfc",
+    "status": "pending",
+    "created": "2026-10-31T16:42:52.422Z",
+    "entity": "matrix",
+    "entityName": "Matrix (fka Matrix Partners)",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [],
+    "after": "suno",
+    "summary": "Link Matrix (fka Matrix Partners) → Suno",
+    "evidence": {
+      "source_url": "https://matrix.vc/",
+      "quote": "link \"Suno\" → https://suno.com/",
+      "kind": "official site (hyperlink to its official site)"
+    },
+    "corroboration": {
+      "kind": "reciprocal atlas link",
+      "source_url": "https://github.com/holzerjm/mass-ai-atlas/blob/main/data/entities.yml#L651",
+      "detail": "Suno (suno) already lists matrix in its links — a person verified that edge"
+    },
+    "staged": false
+  },
+  {
+    "id": "30c5de5939",
+    "status": "pending",
+    "created": "2026-10-31T16:42:52.498Z",
+    "entity": "hyperplane",
+    "entityName": "Hyperplane",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [],
+    "after": "pickle",
+    "summary": "Link Hyperplane → Pickle Robot",
+    "evidence": {
+      "source_url": "https://www.hyperplane.vc/",
+      "quote": "Software enabled hardware built on generative AI, machine vision, and world-class autonomy Pickle Robot Physical AI for supply chain automation Partnered at pre-seed The AI platform transforming",
+      "kind": "official site (named in page text)"
+    },
+    "corroboration": {
+      "kind": "reciprocal atlas link",
+      "source_url": "https://github.com/holzerjm/mass-ai-atlas/blob/main/data/entities.yml#L843",
+      "detail": "Pickle Robot (pickle) already lists hyperplane in its links — a person verified that edge"
+    },
+    "staged": false
+  },
+  {
+    "id": "77e8439f40",
+    "status": "pending",
+    "created": "2026-10-31T16:42:52.729Z",
+    "entity": "flybridge",
+    "entityName": "Flybridge",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [],
+    "after": "blitzy",
+    "summary": "Link Flybridge → Blitzy",
+    "evidence": {
+      "source_url": "https://www.flybridge.com/",
+      "quote": "link \"Visit Website\" → https://blitzy.com/",
+      "kind": "official site (hyperlink to its official site)"
+    },
+    "corroboration": {
+      "kind": "reciprocal atlas link",
+      "source_url": "https://github.com/holzerjm/mass-ai-atlas/blob/main/data/entities.yml#L668",
+      "detail": "Blitzy (blitzy) already lists flybridge in its links — a person verified that edge"
+    },
+    "staged": false
+  },
+  {
+    "id": "277703fedb",
+    "status": "pending",
+    "created": "2026-10-31T16:42:53.071Z",
+    "entity": "converge",
+    "entityName": "Converge",
+    "module": "scout",
+    "field": "loc",
+    "op": "confirm",
+    "confidence": "two-source",
+    "before": {
+      "loc": "245 Main St, Cambridge",
+      "lat": 42.3625,
+      "lng": -71.0847,
+      "approx": false
+    },
+    "after": {
+      "loc": "245 Main St, Cambridge",
+      "lat": 42.3625,
+      "lng": -71.0847,
+      "approx": false
+    },
+    "summary": "Confirm \"245 Main St, Cambridge\" — on the org's site, and OSM places it 5 m from the pin",
+    "evidence": {
+      "source_url": "https://converge.vc/",
+      "quote": "$3B Equity Capital Raised 27 Countries represented by founders 0 Rulebooks View Portfolio 245 Main St. Cambridge, MA 02142 &copy; 2026 Converge Press Rtrn Close Home Podcast Portfolio Team Entrepreneurs Advisors News",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/node/14020678601",
+      "detail": "CIC - 245 Main Street, 245, Main Street, MIT, Cambridge, Middlesex County, Massachusetts, 02142, United States (42.3624681, -71.0847446)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=245%20Main%20St%2C%20Cambridge%2C%20Massachusetts"
+    },
+    "staged": false
+  },
+  {
+    "id": "169ace0e39",
+    "status": "pending",
+    "created": "2026-10-31T16:42:53.294Z",
+    "entity": "boston-seed",
+    "entityName": "Boston Seed Capital",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [],
+    "after": "enfi",
+    "summary": "Link Boston Seed Capital → EnFi",
+    "evidence": {
+      "source_url": "https://bostonseed.com/portfolio/",
+      "quote": "link \"https://www.enfi.ai/\" → https://www.enfi.ai/",
+      "kind": "official site (hyperlink to its official site)"
+    },
+    "corroboration": {
+      "kind": "reciprocal atlas link",
+      "source_url": "https://github.com/holzerjm/mass-ai-atlas/blob/main/data/entities.yml#L923",
+      "detail": "EnFi (enfi) already lists boston-seed in its links — a person verified that edge"
+    },
+    "staged": false
+  },
+  {
+    "id": "a7950a2d7f",
+    "status": "pending",
+    "created": "2026-10-31T16:42:54.380Z",
+    "entity": "foundry",
+    "entityName": "The Foundry (Cambridge)",
+    "module": "scout",
+    "field": "location",
+    "op": "setGeo",
+    "confidence": "two-source",
+    "before": {
+      "loc": "101 Rogers St, Cambridge",
+      "lat": 42.369,
+      "lng": -71.079,
+      "approx": false
+    },
+    "after": {
+      "loc": "101 Rogers St, Cambridge",
+      "lat": 42.3666,
+      "lng": -71.0828,
+      "approx": false
+    },
+    "summary": "Move pin 0.41 km to where OSM places \"101 Rogers St\" (the address the org publishes)",
+    "evidence": {
+      "source_url": "https://www.cambridgefoundry.org/",
+      "quote": "Events FAQ Support Donate Volunteer call (857) 998-2063 mail info@cambridgefoundry.org place 101 Rogers St, Cambridge, MA 02142 Sign Up For Our Newsletter © 2026 The Foundry Consortium     ",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/node/10904110346",
+      "detail": "The Foundry, 101, Rogers Street, East Cambridge, Cambridge, Middlesex County, Massachusetts, 02142, United States (42.3666151, -71.0827636)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=101%20Rogers%20St%2C%20Cambridge%2C%20Massachusetts"
+    },
+    "staged": false
+  },
+  {
+    "id": "bd964c94ff",
+    "status": "pending",
+    "created": "2026-10-31T16:42:57.248Z",
+    "entity": "righthand",
+    "entityName": "RightHand Robotics",
+    "module": "scout",
+    "field": "location",
+    "op": "setGeo",
+    "confidence": "two-source",
+    "before": {
+      "loc": "Somerville",
+      "lat": 42.387,
+      "lng": -71.099,
+      "approx": true
+    },
+    "after": {
+      "loc": "237 Washington St, Somerville",
+      "lat": 42.3799,
+      "lng": -71.0936,
+      "approx": false
+    },
+    "summary": "Sharpen approximate pin to \"237 Washington St, Somerville\" (0.90 km move)",
+    "evidence": {
+      "source_url": "https://righthandrobotics.com/",
+      "quote": "{\"@type\":\"PostalAddress\",\"addressCountry\":\"US\",\"addressLocality\":\"Somerville\",\"addressRegion\":\"MA\",\"postalCode\":\"02143\",\"streetAddress\":\"237 Washington Street\"}",
+      "kind": "official site (JSON-LD)"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/relation/14205407",
+      "detail": "Righthand Robotics, 237, Washington Street, Union Square, Somerville, Middlesex County, Massachusetts, 02143, United States (42.3799334, -71.0935651)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=237%20Washington%20St%2C%20Somerville%2C%20Massachusetts"
+    },
+    "staged": false
+  },
+  {
+    "id": "f90e6d760d",
+    "status": "pending",
+    "created": "2026-10-31T16:42:57.556Z",
+    "entity": "maven",
+    "entityName": "Maven AGI",
+    "module": "scout",
+    "field": "loc",
+    "op": "confirm",
+    "confidence": "two-source",
+    "before": {
+      "loc": "399 Boylston St, Boston",
+      "lat": 42.3518,
+      "lng": -71.0721,
+      "approx": false
+    },
+    "after": {
+      "loc": "399 Boylston St, Boston",
+      "lat": 42.3518,
+      "lng": -71.0721,
+      "approx": false
+    },
+    "summary": "Confirm \"399 Boylston St, Boston\" — on the org's site, and OSM places it 1 m from the pin",
+    "evidence": {
+      "source_url": "https://www.mavenagi.com/",
+      "quote": "Healthcare Telecommunications Media Travel & Hospitality Retail & E-commerce © 2026 Maven AGI. 399 Boylston St, Boston, MA 02116 Legal & Privacy Policy",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/way/405397954",
+      "detail": "399, Boylston Street, Block A, Back Bay, Boston, Suffolk County, Massachusetts, 02116, United States (42.3518103, -71.0720961)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=399%20Boylston%20St%2C%20Boston%2C%20Massachusetts"
+    },
+    "staged": false
+  },
+  {
+    "id": "c51a7e77b5",
+    "status": "pending",
+    "created": "2026-10-31T16:42:58.099Z",
+    "entity": "fleet",
+    "entityName": "Fleet Robotics",
+    "module": "scout",
+    "field": "loc",
+    "op": "confirm",
+    "confidence": "two-source",
+    "before": {
+      "loc": "500 Rutherford Ave, Charlestown",
+      "lat": 42.3814,
+      "lng": -71.0727,
+      "approx": false
+    },
+    "after": {
+      "loc": "500 Rutherford Ave, Charlestown",
+      "lat": 42.3814,
+      "lng": -71.0727,
+      "approx": false
+    },
+    "summary": "Confirm \"500 Rutherford Ave, Charlestown\" — on the org's site, and OSM places it 3 m from the pin",
+    "evidence": {
+      "source_url": "https://www.fleetrobotics.ai/",
+      "quote": "performance. Gain unprecedented clarity on the status of submerged infrastructure. Talk to our team 500 Rutherford Ave Charlestown, MA 02129 U.S.A. info@fleetrobotics.ai Join the Team © 2025 — Fleet Robotics",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/node/7650676428",
+      "detail": "Cambridge College, 500, Rutherford Avenue, Charlestown, Boston, Suffolk County, Massachusetts, 02129, United States (42.3813909, -71.0726639)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=500%20Rutherford%20Ave%2C%20Charlestown%2C%20Massachusetts"
+    },
+    "staged": false
+  },
+  {
+    "id": "75c739179f",
+    "status": "pending",
+    "created": "2026-10-31T16:42:58.414Z",
+    "entity": "commonwealth-fusion",
+    "entityName": "Commonwealth Fusion Systems",
+    "module": "scout",
+    "field": "loc",
+    "op": "confirm",
+    "confidence": "two-source",
+    "before": {
+      "loc": "117 Hospital Rd, Devens",
+      "lat": 42.5422,
+      "lng": -71.626,
+      "approx": false
+    },
+    "after": {
+      "loc": "117 Hospital Rd, Devens",
+      "lat": 42.5422,
+      "lng": -71.626,
+      "approx": false
+    },
+    "summary": "Confirm \"117 Hospital Rd, Devens\" — on the org's site, and OSM places it 2 m from the pin",
+    "evidence": {
+      "source_url": "https://cfs.energy/",
+      "quote": "Join the power movement Follow Us Sign up for the Tokamak Times Commonwealth Fusion Systems 117 Hospital Rd Devens, MA 01434 Copyright 2026 Commonwealth Fusion Systems. All rights reserved. SPARC®, ARC™, and Fall Line™",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/node/10754819406",
+      "detail": "Commonwealth Fusion Systems, 117, Hospital Road, Devens, Harvard, Worcester County, Massachusetts, 01434, United States (42.5422083, -71.6260262)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=117%20Hospital%20Rd%2C%20Devens%2C%20Massachusetts"
+    },
+    "census": {
+      "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=117+Hospital+Rd%2C+Devens%2C+MA&benchmark=Public_AR_Current&format=json",
+      "detail": "Census matched \"117 HOSPITAL LN, DEVENS, MA, 01434\", 86 m from the current pin",
+      "agrees": true
+    },
+    "staged": false
+  },
+  {
+    "id": "15fbce88a5",
+    "status": "pending",
+    "created": "2026-10-31T16:42:58.674Z",
+    "entity": "glasswing",
+    "entityName": "Glasswing Ventures",
+    "module": "scout",
+    "field": "loc",
+    "op": "confirm",
+    "confidence": "two-source",
+    "before": {
+      "loc": "275 Newbury St, Boston",
+      "lat": 42.3495,
+      "lng": -71.0838,
+      "approx": false
+    },
+    "after": {
+      "loc": "275 Newbury St, Boston",
+      "lat": 42.3495,
+      "lng": -71.0838,
+      "approx": false
+    },
+    "summary": "Confirm \"275 Newbury St, Boston\" — on the org's site, and OSM places it 2 m from the pin",
+    "evidence": {
+      "source_url": "https://glasswing.vc/",
+      "quote": "Former Google DeepMind Scientist Join Our Newsletter for Updates & Upcoming Events Submit 275 Newbury St. Boston, MA 02116 Join Our Newsletter for Updates & Upcoming Events Submit Glasswing Ventures &copy; 2026 All",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/way/405398209",
+      "detail": "275, Newbury Street, Back Bay, Boston, Suffolk County, Massachusetts, 02116, United States (42.3494903, -71.0838217)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=275%20Newbury%20St%2C%20Boston%2C%20Massachusetts"
+    },
+    "staged": false
+  },
+  {
+    "id": "ae3ea9fab7",
+    "status": "pending",
+    "created": "2026-10-31T16:43:00.429Z",
+    "entity": "milemark",
+    "entityName": "Milemark Capital",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [],
+    "after": "deltav",
+    "summary": "Link Milemark Capital → MIT delta v",
+    "evidence": {
+      "source_url": "https://www.milemark.capital/",
+      "quote": "Jose Tomas Backstage at BIG.AI@MIT – Innovation Showcase (all videos here) SF Tech Week 2024 MIT delta v is an educational accelerator program at MIT that helps student entrepreneurs develop and",
+      "kind": "official site (named in page text)"
+    },
+    "corroboration": {
+      "kind": "reciprocal mention on the other org's site",
+      "source_url": "https://entrepreneurship.mit.edu/accelerator/partner-network/",
+      "quote": "link \"milemark•capital\" → https://www.milemark.capital/",
+      "detail": "hyperlink to its official site"
+    },
+    "staged": false
+  },
+  {
+    "id": "422e5d8db2",
+    "status": "pending",
+    "created": "2026-10-31T16:43:00.967Z",
+    "entity": "venture-guides",
+    "entityName": "Venture Guides",
+    "module": "scout",
+    "field": "loc",
+    "op": "confirm",
+    "confidence": "two-source",
+    "before": {
+      "loc": "100 Causeway St, Boston",
+      "lat": 42.3656,
+      "lng": -71.0614,
+      "approx": false
+    },
+    "after": {
+      "loc": "100 Causeway St, Boston",
+      "lat": 42.3656,
+      "lng": -71.0614,
+      "approx": false
+    },
+    "summary": "Confirm \"100 Causeway St, Boston\" — on the org's site, and OSM places it 4 m from the pin",
+    "evidence": {
+      "source_url": "https://www.ventureguides.com/",
+      "quote": "Companies Testimonials Philosophy VG SALES Careers News Contact Us Blog Webinars Podcasts 100 Causeway St. Boston, MA 02114 &copy;",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/node/6185109492",
+      "detail": "The Goal, 100, Causeway Street, West End, Boston, Suffolk County, Massachusetts, 02114, United States (42.3656018, -71.0614476)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=100%20Causeway%20St%2C%20Boston%2C%20Massachusetts"
+    },
+    "staged": false
+  },
+  {
+    "id": "d2f60a0518",
+    "status": "pending",
+    "created": "2026-10-31T16:43:01.045Z",
+    "entity": "j2",
+    "entityName": "J2 Ventures",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [],
+    "after": "code-metal",
+    "summary": "Link J2 Ventures → Code Metal",
+    "evidence": {
+      "source_url": "https://j2vp.com/team",
+      "quote": "to support you with an amazing network, not direct you. — Peter Morales, Co-Founder & CEO, Code Metal Their unique connections and expertise has unlocked new value pools and helped us build faster,",
+      "kind": "official site (named in page text)"
+    },
+    "corroboration": {
+      "kind": "reciprocal atlas link",
+      "source_url": "https://github.com/holzerjm/mass-ai-atlas/blob/main/data/entities.yml#L875",
+      "detail": "Code Metal (code-metal) already lists j2 in its links — a person verified that edge"
+    },
+    "staged": false
+  },
+  {
+    "id": "b1b3a5365f",
+    "status": "pending",
+    "created": "2026-10-31T16:43:01.073Z",
+    "entity": "glasswing",
+    "entityName": "Glasswing Ventures",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [],
+    "after": "mit-sandbox",
+    "summary": "Link Glasswing Ventures → MIT Sandbox",
+    "evidence": {
+      "source_url": "https://glasswing.vc/our-team/",
+      "quote": "the Rock Center for Entrepreneurship at Harvard Business School (HBS), a Board Member of the MIT Sandbox, an MIT iHQ Mentor, and a frequent judge at MassChallenge. He also serves on the Board of",
+      "kind": "official site (named in a person's bio — a tie through a person, weaker than an org-level link)"
+    },
+    "corroboration": {
+      "kind": "reciprocal mention on the other org's site",
+      "source_url": "https://sandbox.mit.edu/board-members",
+      "quote": "spends his weekends chasing his three boys around various athletic fields. Rick Grinnell , Glasswing Ventures Rick Grinnell is Founder and Managing Partner of Glasswing Ventures, focusing on investments",
+      "detail": "named in a person's bio — a tie through a person, weaker than an org-level link"
+    },
+    "staged": false
+  },
+  {
+    "id": "52d8e4e882",
+    "status": "pending",
+    "created": "2026-10-31T16:43:01.164Z",
+    "entity": "suffolk-tech",
+    "entityName": "Suffolk Technologies",
+    "module": "scout",
+    "field": "loc",
+    "op": "confirm",
+    "confidence": "two-source",
+    "before": {
+      "loc": "65 Allerton St, Boston",
+      "lat": 42.3281,
+      "lng": -71.0697,
+      "approx": false
+    },
+    "after": {
+      "loc": "65 Allerton St, Boston",
+      "lat": 42.3281,
+      "lng": -71.0697,
+      "approx": false
+    },
+    "summary": "Confirm \"65 Allerton St, Boston\" — on the org's site, and OSM places it 5 m from the pin",
+    "evidence": {
+      "source_url": "https://suffolktech.com/",
+      "quote": "BOOST Team Insights LinkedIn LP Login Suffolk Construction Legal & Privacy Portfolio Careers 65 Allerton St, Boston, MA 02119 &copy; 2026 Suffolk Construction Company and Suffolk Technologies. All Rights Reserved.",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/way/8652067",
+      "detail": "65, Allerton Street, Roxbury, Boston, Suffolk County, Massachusetts, 02119, United States (42.328057, -71.0697001)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=65%20Allerton%20St%2C%20Boston%2C%20Massachusetts"
+    },
+    "staged": false
+  },
+  {
+    "id": "06d060124b",
+    "status": "pending",
+    "created": "2026-10-31T16:43:01.574Z",
+    "entity": "lama",
+    "entityName": "Lama Partners",
+    "module": "scout",
+    "field": "loc",
+    "op": "confirm",
+    "confidence": "two-source",
+    "before": {
+      "loc": "131 Dartmouth St, Boston",
+      "lat": 42.3471,
+      "lng": -71.076,
+      "approx": true
+    },
+    "after": {
+      "loc": "131 Dartmouth St, Boston",
+      "lat": 42.3471,
+      "lng": -71.076,
+      "approx": true
+    },
+    "summary": "Confirm \"131 Dartmouth St, Boston\" — on the org's site, and OSM places it 76 m from the pin",
+    "evidence": {
+      "source_url": "https://www.lama.vc/",
+      "quote": "Firm built for founders, by founders. Get In Touch Israel: 2 Har Sinai St., Tel Aviv USA: 131 Dartmouth St., Boston, MA 02116 Info@lama.vc Homepage about portfolio Privacy Policy Terms of Use Cookie policy © 2026 LAMA.",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/way/241968078",
+      "detail": "131, Dartmouth Street, South End, Boston, Suffolk County, Massachusetts, 02117, United States (42.3468227, -71.0751604)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=131%20Dartmouth%20St%2C%20Boston%2C%20Massachusetts"
+    },
+    "staged": false
+  },
+  {
+    "id": "4f106e73a8",
+    "status": "pending",
+    "created": "2026-10-31T16:43:01.606Z",
+    "entity": "companyon",
+    "entityName": "Companyon Ventures",
+    "module": "scout",
+    "field": "loc",
+    "op": "confirm",
+    "confidence": "two-source",
+    "before": {
+      "loc": "184 High St, Boston",
+      "lat": 42.3566,
+      "lng": -71.0528,
+      "approx": false
+    },
+    "after": {
+      "loc": "184 High St, Boston",
+      "lat": 42.3566,
+      "lng": -71.0528,
+      "approx": false
+    },
+    "summary": "Confirm \"184 High St, Boston\" — on the org's site, and OSM places it 13 m from the pin",
+    "evidence": {
+      "source_url": "https://companyon.vc/",
+      "quote": "Videos Investments Resources Blog Lunch & Learns Toolkits Media Kit Contact Email Newsletter 184 High St., Suite 501 Boston, MA 02110 LinkedIn Vimeo X Privacy Policy | Contact Us | Site Credits Site Credits Design By : Design",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/way/1281242302",
+      "detail": "Chadwick Lead Works Building, 184, High Street, Waterfront, Downtown, Boston, Suffolk County, Massachusetts, 02110, United States (42.3566333, -71.0526516)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=184%20High%20St%2C%20Boston%2C%20Massachusetts"
+    },
+    "staged": false
+  },
+  {
+    "id": "001c62ee49",
+    "status": "pending",
+    "created": "2026-10-31T16:43:02.052Z",
+    "entity": "vms",
+    "entityName": "MIT Venture Mentoring Service",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [],
+    "after": "mit-sandbox",
+    "summary": "Link MIT Venture Mentoring Service → MIT Sandbox",
+    "evidence": {
+      "source_url": "https://vms.mit.edu/application",
+      "quote": "Competition Deshpande Center D-Lab I-Corps IDEAS Global Challenge MassChallenge Martin Trust Center MIT Sandbox Innovation Fund Sloan Healthcare Innovations Prize MIT Startup Exchange Ventureships Other",
+      "kind": "official site (named in page text)"
+    },
+    "corroboration": {
+      "kind": "reciprocal mention on the other org's site",
+      "source_url": "https://sandbox.mit.edu/",
+      "quote": "link \"Venture Mentoring Services\" → https://vms.mit.edu/",
+      "detail": "hyperlink to its official site"
+    },
+    "staged": false
+  },
+  {
+    "id": "04a98db9f4",
+    "status": "pending",
+    "created": "2026-10-31T16:43:02.545Z",
+    "entity": "startup-worcester",
+    "entityName": "StartUp Worcester",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [],
+    "after": "worclab",
+    "summary": "Link StartUp Worcester → WorcLab",
+    "evidence": {
+      "source_url": "https://www.worcesterchamber.org/startup-worcester/",
+      "quote": "link \"WorcLab\" → https://worclab.org/",
+      "kind": "official site (hyperlink to its official site)"
+    },
+    "corroboration": {
+      "kind": "reciprocal mention on the other org's site",
+      "source_url": "https://worclab.org/",
+      "quote": "link \"Pre-Accelerator Program\" → https://www.worcesterchamber.org/startup-worcester/",
+      "detail": "hyperlink to its official site"
+    },
+    "staged": false
+  },
+  {
+    "id": "c818d3df33",
+    "status": "pending",
+    "created": "2026-10-31T16:43:03.533Z",
+    "entity": "csail",
+    "entityName": "MIT CSAIL",
+    "module": "scout",
+    "field": "loc",
+    "op": "confirm",
+    "confidence": "two-source",
+    "before": {
+      "loc": "Stata Center, 32 Vassar St, Cambridge",
+      "lat": 42.3617,
+      "lng": -71.0906,
+      "approx": false
+    },
+    "after": {
+      "loc": "Stata Center, 32 Vassar St, Cambridge",
+      "lat": 42.3617,
+      "lng": -71.0906,
+      "approx": false
+    },
+    "summary": "Confirm \"Stata Center, 32 Vassar St, Cambridge\" — on the org's site, and OSM places it 19 m from the pin",
+    "evidence": {
+      "source_url": "https://www.csail.mit.edu/",
+      "quote": "Massachusetts Institute of Technology Computer Science & Artificial Intelligence Laboratory 32 Vassar St, Cambridge MA 02139 Contact Press Requests Accessibility",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/way/27078002",
+      "detail": "32 Stata Center, 32, Vassar Street, MIT, Cambridge, Middlesex County, Massachusetts, 02139, United States (42.3615416, -71.0906713)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=32%20Vassar%20St%2C%20Cambridge%2C%20Massachusetts"
+    },
+    "staged": false
+  },
+  {
+    "id": "d2ae3ae43b",
+    "status": "pending",
+    "created": "2026-10-31T16:43:03.769Z",
+    "entity": "csail",
+    "entityName": "MIT CSAIL",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "liquid",
+      "tamr",
+      "mit-ibm",
+      "socc"
+    ],
+    "after": "bdyn",
+    "summary": "Link MIT CSAIL → Boston Dynamics",
+    "evidence": {
+      "source_url": "https://www.csail.mit.edu/about",
+      "quote": "MIT's DSpace service. Hundreds of companies have spun out of CSAIL, from Akamai and Dropbox to Boston Dynamics and iRobot. Spin-offs Hundreds of companies have spun out of CSAIL, from Akamai and Dropbox",
+      "kind": "official site (named in page text)"
+    },
+    "corroboration": {
+      "kind": "reciprocal atlas link",
+      "source_url": "https://github.com/holzerjm/mass-ai-atlas/blob/main/data/entities.yml#L714",
+      "detail": "Boston Dynamics (bdyn) already lists csail in its links — a person verified that edge"
+    },
+    "staged": false
+  },
+  {
+    "id": "21eb6e7e6f",
+    "status": "pending",
+    "created": "2026-10-31T16:43:03.782Z",
+    "entity": "csail",
+    "entityName": "MIT CSAIL",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "liquid",
+      "tamr",
+      "mit-ibm",
+      "socc"
+    ],
+    "after": "irobot",
+    "summary": "Link MIT CSAIL → iRobot",
+    "evidence": {
+      "source_url": "https://www.csail.mit.edu/about",
+      "quote": "Hundreds of companies have spun out of CSAIL, from Akamai and Dropbox to Boston Dynamics and iRobot. Spin-offs Hundreds of companies have spun out of CSAIL, from Akamai and Dropbox to Boston",
+      "kind": "official site (named in page text)"
+    },
+    "corroboration": {
+      "kind": "reciprocal atlas link",
+      "source_url": "https://github.com/holzerjm/mass-ai-atlas/blob/main/data/entities.yml#L1142",
+      "detail": "iRobot (irobot) already lists csail in its links — a person verified that edge"
+    },
+    "staged": false
+  },
+  {
+    "id": "9b80d85b19",
+    "status": "pending",
+    "created": "2026-10-31T16:43:04.814Z",
+    "entity": "e14",
+    "entityName": "E14 Fund",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "medialab"
+    ],
+    "after": "maven",
+    "summary": "Link E14 Fund → Maven AGI",
+    "evidence": {
+      "source_url": "https://www.e14.vc/",
+      "quote": "minds shaping the future. We’re with you from the beginning, investing from pre-seed to A. Maven AGI Formlabs Netpreme Replit Axiom Overjet Mosaic ML Tulip Ketryx humans& General Robotics Avantos",
+      "kind": "official site (named in page text)"
+    },
+    "corroboration": {
+      "kind": "reciprocal atlas link",
+      "source_url": "https://github.com/holzerjm/mass-ai-atlas/blob/main/data/entities.yml#L891",
+      "detail": "Maven AGI (maven) already lists e14 in its links — a person verified that edge"
+    },
+    "staged": false
+  },
+  {
+    "id": "415b511dde",
+    "status": "pending",
+    "created": "2026-10-31T16:43:05.295Z",
+    "entity": "gv",
+    "entityName": "GV (Google Ventures)",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "google"
+    ],
+    "after": "righthand",
+    "summary": "Link GV (Google Ventures) → RightHand Robotics",
+    "evidence": {
+      "source_url": "https://www.gv.com/portfolio",
+      "quote": "Reserve * Resilience Resistant AI Resolution Games RetailMeNot * Revolution Medicines * RhyGaze RightHand Robotics Rilla Ripcord Rippl Care * Ripple Foods Ripple Labs Rise * Robinhood * Roboflow Rocana * Rockbot",
+      "kind": "official site (named in page text)"
+    },
+    "corroboration": {
+      "kind": "reciprocal atlas link",
+      "source_url": "https://github.com/holzerjm/mass-ai-atlas/blob/main/data/entities.yml#L827",
+      "detail": "RightHand Robotics (righthand) already lists gv in its links — a person verified that edge"
+    },
+    "staged": false
+  },
+  {
+    "id": "649b88dc24",
+    "status": "pending",
+    "created": "2026-10-31T16:43:05.309Z",
+    "entity": "gv",
+    "entityName": "GV (Google Ventures)",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "google"
+    ],
+    "after": "recfut",
+    "summary": "Link GV (Google Ventures) → Recorded Future",
+    "evidence": {
+      "source_url": "https://www.gv.com/portfolio",
+      "quote": "Quartet * Quettra * r Ramp Rani Therapeutics * RAPT Therapeutics * Rattle Reaction Commerce * Recorded Future * Recursive Redpanda Relay Therapeutics * Republic Project * Reserve * Resilience Resistant",
+      "kind": "official site (named in page text)"
+    },
+    "corroboration": {
+      "kind": "reciprocal atlas link",
+      "source_url": "https://github.com/holzerjm/mass-ai-atlas/blob/main/data/entities.yml#L699",
+      "detail": "Recorded Future (recfut) already lists gv in its links — a person verified that edge"
+    },
+    "staged": false
+  },
+  {
+    "id": "374a28e9ef",
+    "status": "pending",
+    "created": "2026-10-31T16:43:05.322Z",
+    "entity": "gv",
+    "entityName": "GV (Google Ventures)",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "google"
+    ],
+    "after": "kensho",
+    "summary": "Link GV (Google Ventures) → Kensho",
+    "evidence": {
+      "source_url": "https://www.gv.com/portfolio",
+      "quote": "iPierian * Isomorphic Labs Iterative Health j Jaunt * Jet * Jetify JumpCam k Kabam * Kamcord * Kensho * Kindbody Kindred * Kinetic Apps Kitchen United Kobalt Kronos Bio * l Lacework * Lapse Lattice",
+      "kind": "official site (named in page text)"
+    },
+    "corroboration": {
+      "kind": "reciprocal atlas link",
+      "source_url": "https://github.com/holzerjm/mass-ai-atlas/blob/main/data/entities.yml#L732",
+      "detail": "Kensho (kensho) already lists gv in its links — a person verified that edge"
+    },
+    "staged": false
+  },
+  {
+    "id": "0ff6f1ab76",
+    "status": "pending",
+    "created": "2026-10-31T16:43:05.370Z",
+    "entity": "labcentral",
+    "entityName": "LabCentral",
+    "module": "scout",
+    "field": "loc",
+    "op": "confirm",
+    "confidence": "two-source",
+    "before": {
+      "loc": "700 Main St North, Cambridge",
+      "lat": 42.3626,
+      "lng": -71.0951,
+      "approx": false
+    },
+    "after": {
+      "loc": "700 Main St North, Cambridge",
+      "lat": 42.3626,
+      "lng": -71.0951,
+      "approx": false
+    },
+    "summary": "Confirm \"700 Main St North, Cambridge\" — on the org's site, and OSM places it 4 m from the pin",
+    "evidence": {
+      "source_url": "https://www.labcentral.org/",
+      "quote": "{\"@type\":\"PostalAddress\",\"streetAddress\":\"700 Main Street\",\"addressLocality\":\"North Cambridge\",\"addressRegion\":\"Massachusetts\",\"postalCode\":\"02139\",\"addressCountry\":\"US\"}",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/way/29804458",
+      "detail": "700, Main Street, Harlow Square, The Port, Cambridge, Middlesex County, Massachusetts, 02139, United States (42.3625813, -71.0950655)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=700%20Main%20St%2C%20Cambridge%2C%20Massachusetts"
+    },
+    "staged": false
+  },
+  {
+    "id": "7f28411007",
+    "status": "pending",
+    "created": "2026-10-31T16:43:05.450Z",
+    "entity": "cic-boston",
+    "entityName": "CIC Boston",
+    "module": "scout",
+    "field": "loc",
+    "op": "confirm",
+    "confidence": "two-source",
+    "before": {
+      "loc": "50 Milk St, Boston",
+      "lat": 42.3571,
+      "lng": -71.0576,
+      "approx": false
+    },
+    "after": {
+      "loc": "50 Milk St, Boston",
+      "lat": 42.3571,
+      "lng": -71.0576,
+      "approx": false
+    },
+    "summary": "Confirm \"50 Milk St, Boston\" — on the org's site, and OSM places it 3 m from the pin",
+    "evidence": {
+      "source_url": "https://cic.com/boston/",
+      "quote": "{\"@type\":\"PostalAddress\",\"streetAddress\":\"50 Milk Street\",\"addressLocality\":\"Boston\",\"addressRegion\":\"MA\"}",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/way/29613210",
+      "detail": "50 Milk Street, 50, Milk Street, Downtown Crossing, Downtown, Boston, Suffolk County, Massachusetts, 02108, United States (42.357074, -71.0575972)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=50%20Milk%20St%2C%20Boston%2C%20Massachusetts"
+    },
+    "staged": false
+  },
+  {
+    "id": "4417b6d6b2",
+    "status": "pending",
+    "created": "2026-10-31T16:43:05.478Z",
+    "entity": "trust",
+    "entityName": "Martin Trust Center for MIT Entrepreneurship",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "deltav"
+    ],
+    "after": "deltav-demo",
+    "summary": "Link Martin Trust Center for MIT Entrepreneurship → delta v Demo Day",
+    "evidence": {
+      "source_url": "https://entrepreneurship.mit.edu/membership/",
+      "quote": "Entrepreneurship event relevant event invitations (up to 2 tickets) up to 10 VIP invitations to MIT delta v Demo Day (in Cambridge, NYC, and/or San Francisco / Silicon Valley) Opportunities to guest post on",
+      "kind": "official site (named in page text)"
+    },
+    "corroboration": {
+      "kind": "reciprocal mention on the other org's site",
+      "source_url": "https://entrepreneurship.mit.edu/accelerator/program/",
+      "quote": "About delta v Info Session Slide Deck Apply to delta v! Click to Subscribe to Our Newsletter Martin Trust Center for MIT Entrepreneurship One Amherst Street E40-160 Cambridge MA 02142 617.253.8653 trustcenter@mit.edu Accessibility",
+      "detail": "named in page text"
+    },
+    "staged": false
+  },
+  {
+    "id": "329490c34d",
+    "status": "pending",
+    "created": "2026-10-31T16:43:05.502Z",
+    "entity": "cic",
+    "entityName": "CIC Cambridge",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "vcafe",
+      "c10"
+    ],
+    "after": "massrobotics",
+    "summary": "Link CIC Cambridge → MassRobotics",
+    "evidence": {
+      "source_url": "https://cic.com/about/",
+      "quote": "single Cambridge location to a global company. He co-founded and chaired at launch LabCentral, MassRobotics, the Mass Mobility Hub, and the Kendall Square Association. Past roles include Lecturer at",
+      "kind": "official site (named in page text)"
+    },
+    "corroboration": {
+      "kind": "reciprocal mention on the other org's site",
+      "source_url": "https://www.massrobotics.org/sponsors/",
+      "quote": "link \"https://cic.com/\" → https://cic.com/",
+      "detail": "hyperlink to its official site"
+    },
+    "staged": false
+  },
+  {
+    "id": "62a6d4e7a1",
+    "status": "pending",
+    "created": "2026-10-31T16:43:05.526Z",
+    "entity": "labcentral",
+    "entityName": "LabCentral",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "c10",
+      "ai-biohub",
+      "mlsc"
+    ],
+    "after": "cic",
+    "summary": "Link LabCentral → CIC Cambridge",
+    "evidence": {
+      "source_url": "https://www.labcentral.org/partnerships-and-pathways/partners-supporters",
+      "quote": "link \"https://cic.com/\" → https://cic.com/",
+      "kind": "official site (hyperlink to its official site)"
+    },
+    "corroboration": {
+      "kind": "reciprocal mention on the other org's site",
+      "source_url": "https://cic.com/about/",
+      "quote": "from a single Cambridge location to a global company. He co-founded and chaired at launch LabCentral, MassRobotics, the Mass Mobility Hub, and the Kendall Square Association. Past roles include",
+      "detail": "named in page text"
+    },
+    "staged": false
+  },
+  {
+    "id": "c5f698c905",
+    "status": "pending",
+    "created": "2026-10-31T16:43:05.604Z",
+    "entity": "cic",
+    "entityName": "CIC Cambridge",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "vcafe",
+      "c10"
+    ],
+    "after": "labcentral",
+    "summary": "Link CIC Cambridge → LabCentral",
+    "evidence": {
+      "source_url": "https://cic.com/about/",
+      "quote": "from a single Cambridge location to a global company. He co-founded and chaired at launch LabCentral, MassRobotics, the Mass Mobility Hub, and the Kendall Square Association. Past roles include",
+      "kind": "official site (named in page text)"
+    },
+    "corroboration": {
+      "kind": "reciprocal mention on the other org's site",
+      "source_url": "https://www.labcentral.org/partnerships-and-pathways/partners-supporters",
+      "quote": "link \"https://cic.com/\" → https://cic.com/",
+      "detail": "hyperlink to its official site"
+    },
+    "staged": false
+  },
+  {
+    "id": "5ff2ed121f",
+    "status": "pending",
+    "created": "2026-10-31T16:43:05.621Z",
+    "entity": "cic",
+    "entityName": "CIC Cambridge",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "vcafe",
+      "c10"
+    ],
+    "after": "cic-boston",
+    "summary": "Link CIC Cambridge → CIC Boston",
+    "evidence": {
+      "source_url": "https://cic.com/about/",
+      "quote": "About Stas Stas Gayshan is General Counsel and Managing Director at CIC, and the co-founder of CIC Boston. Stas works with governments, universities, large corporations, real estate developers, entrepreneurs,",
+      "kind": "official site (named in page text)"
+    },
+    "corroboration": {
+      "kind": "reciprocal atlas link",
+      "source_url": "https://github.com/holzerjm/mass-ai-atlas/blob/main/data/entities.yml#L2459",
+      "detail": "CIC Boston (cic-boston) already lists cic in its links — a person verified that edge"
+    },
+    "staged": false
+  },
+  {
+    "id": "061b77f986",
+    "status": "pending",
+    "created": "2026-10-31T16:43:05.710Z",
+    "entity": "trust",
+    "entityName": "Martin Trust Center for MIT Entrepreneurship",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "deltav"
+    ],
+    "after": "mit-sandbox",
+    "summary": "Link Martin Trust Center for MIT Entrepreneurship → MIT Sandbox",
+    "evidence": {
+      "source_url": "https://entrepreneurship.mit.edu/campus-partners/",
+      "quote": "link \"More Information »\" → https://sandbox.mit.edu/",
+      "kind": "official site (hyperlink to its official site)"
+    },
+    "corroboration": {
+      "kind": "reciprocal mention on the other org's site",
+      "source_url": "https://sandbox.mit.edu/board-members",
+      "quote": "supporting her children’s sports team. Bill Aulet Bill Aulet is the Managing Director of the Martin Trust Center for MIT Entrepreneurship and Professor of the Practice at the MIT Sloan School of Management. Read More ▾ Bill is changing",
+      "detail": "named in a person's bio — a tie through a person, weaker than an org-level link"
+    },
+    "staged": false
+  },
+  {
+    "id": "316cbb83f9",
+    "status": "pending",
+    "created": "2026-10-31T16:43:06.460Z",
+    "entity": "genai-meetup",
+    "entityName": "Boston Generative AI Meetup",
+    "module": "scout",
+    "field": "loc",
+    "op": "confirm",
+    "confidence": "two-source",
+    "before": {
+      "loc": "1 Memorial Dr, Cambridge",
+      "lat": 42.3616,
+      "lng": -71.0816,
+      "approx": true
+    },
+    "after": {
+      "loc": "1 Memorial Dr, Cambridge",
+      "lat": 42.3616,
+      "lng": -71.0816,
+      "approx": true
+    },
+    "summary": "Confirm \"1 Memorial Dr, Cambridge\" — on the org's site, and OSM places it 44 m from the pin",
+    "evidence": {
+      "source_url": "https://www.meetup.com/boston-generative-ai-meetup/",
+      "quote": "AI Agents Thu, Jul 23 · 6:00 PM EDT Microsoft New England Research and Development Center, 1 Memorial Dr, Cambridge, MA, US 96 attendees $22.00 Boston Gen AI Meetup June 2026: AI Agents in the Real World: Demo",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/node/4906955879",
+      "detail": "Microsoft New England Research & Development, 1, Memorial Drive, MIT, Cambridge, Middlesex County, Massachusetts, 02142, United States (42.3616283, -71.081069)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=1%20Memorial%20Dr%2C%20Cambridge%2C%20Massachusetts"
+    },
+    "staged": false
+  },
+  {
+    "id": "013b0ff210",
+    "status": "pending",
+    "created": "2026-10-31T16:43:07.544Z",
+    "entity": "imagination",
+    "entityName": "Imagination in Action",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "medialab"
+    ],
+    "after": "link-ventures",
+    "summary": "Link Imagination in Action → Link Ventures",
+    "evidence": {
+      "source_url": "https://imaginationinaction.co/",
+      "quote": "Koller Founder & CEO, insitro Co-founder, Coursera Investor Dave Blundin Managing Partner Link Ventures Investor Dave Blundin Managing Partner Link Ventures Enterprise David Kenny Chairman Nielsen",
+      "kind": "official site (named in page text)"
+    },
+    "corroboration": {
+      "kind": "reciprocal mention on the other org's site",
+      "source_url": "https://www.linkventures.com/about",
+      "quote": "exchange. He is the Founder & CEO of Ideas in Action a non-profit that creates and produces, Imagination in Action , that takes place during the World Economic Forum in Davos and at MIT; TEDxMIT (which was",
+      "detail": "named in a person's bio — a tie through a person, weaker than an org-level link"
+    },
+    "staged": false
+  },
+  {
+    "id": "eb5a2d7dfd",
+    "status": "pending",
+    "created": "2026-10-31T16:43:07.798Z",
+    "entity": "deltav-demo",
+    "entityName": "delta v Demo Day",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "deltav"
+    ],
+    "after": "trust",
+    "summary": "Link delta v Demo Day → Martin Trust Center for MIT Entrepreneurship",
+    "evidence": {
+      "source_url": "https://entrepreneurship.mit.edu/accelerator/program/",
+      "quote": "About delta v Info Session Slide Deck Apply to delta v! Click to Subscribe to Our Newsletter Martin Trust Center for MIT Entrepreneurship One Amherst Street E40-160 Cambridge MA 02142 617.253.8653 trustcenter@mit.edu Accessibility",
+      "kind": "official site (named in page text)"
+    },
+    "corroboration": {
+      "kind": "reciprocal mention on the other org's site",
+      "source_url": "https://entrepreneurship.mit.edu/membership/",
+      "quote": "Entrepreneurship event relevant event invitations (up to 2 tickets) up to 10 VIP invitations to MIT delta v Demo Day (in Cambridge, NYC, and/or San Francisco / Silicon Valley) Opportunities to guest post on",
+      "detail": "named in page text"
+    },
+    "staged": false
+  },
+  {
+    "id": "c993b30135",
+    "status": "pending",
+    "created": "2026-10-31T16:43:08.255Z",
+    "entity": "cics",
+    "entityName": "UMass Amherst Manning CICS",
+    "module": "scout",
+    "field": "loc",
+    "op": "confirm",
+    "confidence": "two-source",
+    "before": {
+      "loc": "140 Governors Dr, Amherst",
+      "lat": 42.3952,
+      "lng": -72.5311,
+      "approx": false
+    },
+    "after": {
+      "loc": "140 Governors Dr, Amherst",
+      "lat": 42.3952,
+      "lng": -72.5311,
+      "approx": false
+    },
+    "summary": "Confirm \"140 Governors Dr, Amherst\" — on the org's site, and OSM places it 4 m from the pin",
+    "evidence": {
+      "source_url": "https://www.cics.umass.edu/",
+      "quote": "Read the Latest Issue Site footer Manning College of Information & Computer Sciences Address 140 Governors Dr Amherst , MA 01003 United States Visit CICS Give Contact Us Employment Events Calendar Offices & Services",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/way/51650200",
+      "detail": "Computer Science Building, 140, Governors Drive, North Amherst, Cushman, Amherst, Hampshire County, Massachusetts, 01003, United States (42.3951638, -72.5311065)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=140%20Governors%20Dr%2C%20Amherst%2C%20Massachusetts"
+    },
+    "staged": false
+  },
+  {
+    "id": "27c4e703db",
+    "status": "pending",
+    "created": "2026-10-31T16:43:08.704Z",
+    "entity": "ciir",
+    "entityName": "UMass Amherst CIIR",
+    "module": "scout",
+    "field": "loc",
+    "op": "confirm",
+    "confidence": "two-source",
+    "before": {
+      "loc": "140 Governors Dr, Amherst",
+      "lat": 42.3952,
+      "lng": -72.5311,
+      "approx": false
+    },
+    "after": {
+      "loc": "140 Governors Dr, Amherst",
+      "lat": 42.3952,
+      "lng": -72.5311,
+      "approx": false
+    },
+    "summary": "Confirm \"140 Governors Dr, Amherst\" — on the org's site, and OSM places it 4 m from the pin",
+    "evidence": {
+      "source_url": "https://ciir.cs.umass.edu/",
+      "quote": "for Intelligent Information Retrieval ⚪ Manning College of Information and Computer Sciences 140 Governors Dr., Amherst, MA 01003 | info@ciir.cs.umass.edu © 2026 University of Massachusetts Amherst ⚪ Site Policies ©2026",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/way/51650200",
+      "detail": "Computer Science Building, 140, Governors Drive, North Amherst, Cushman, Amherst, Hampshire County, Massachusetts, 01003, United States (42.3951638, -72.5311065)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=140%20Governors%20Dr%2C%20Amherst%2C%20Massachusetts"
+    },
+    "staged": false
+  },
+  {
+    "id": "0d916f329b",
+    "status": "pending",
+    "created": "2026-10-31T16:43:10.055Z",
+    "entity": "first-star",
+    "entityName": "First Star Ventures",
+    "module": "scout",
+    "field": "loc",
+    "op": "confirm",
+    "confidence": "two-source",
+    "before": {
+      "loc": "245 Main St, Cambridge",
+      "lat": 42.3625,
+      "lng": -71.0847,
+      "approx": false
+    },
+    "after": {
+      "loc": "245 Main St, Cambridge",
+      "lat": 42.3625,
+      "lng": -71.0847,
+      "approx": false
+    },
+    "summary": "Confirm \"245 Main St, Cambridge\" — on the org's site, and OSM places it 5 m from the pin",
+    "evidence": {
+      "source_url": "https://firststar.vc/",
+      "quote": "partner.” Henry Kim, Founder/CEO first star ventures HOME portfolio about First Star Ventures 245 Main St Cambridge, MA 02142 (map) contact@firststar.vc first star Privacy Policy terms of conditions",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/node/14020678601",
+      "detail": "CIC - 245 Main Street, 245, Main Street, MIT, Cambridge, Middlesex County, Massachusetts, 02142, United States (42.3624681, -71.0847446)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=245%20Main%20St%2C%20Cambridge%2C%20Massachusetts"
+    },
+    "staged": false
+  },
+  {
+    "id": "eac3ad6100",
+    "status": "pending",
+    "created": "2026-10-31T16:43:10.084Z",
+    "entity": "engine-v",
+    "entityName": "Engine Ventures",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "engine"
+    ],
+    "after": "commonwealth-fusion",
+    "summary": "Link Engine Ventures → Commonwealth Fusion Systems",
+    "evidence": {
+      "source_url": "https://engineventures.com/",
+      "quote": "founders solving the world’s toughest challenges with breakthrough technology. Previous Next Commonwealth Fusion Systems Creating safe, unlimited, carbon-free fusion power for the grid. [1/7] Celestial AI Optical",
+      "kind": "official site (named in page text)"
+    },
+    "corroboration": {
+      "kind": "reciprocal atlas link",
+      "source_url": "https://github.com/holzerjm/mass-ai-atlas/blob/main/data/entities.yml#L1125",
+      "detail": "Commonwealth Fusion Systems (commonwealth-fusion) already lists engine-v in its links — a person verified that edge"
+    },
+    "staged": false
+  },
+  {
+    "id": "3848357e9e",
+    "status": "pending",
+    "created": "2026-10-31T16:43:10.338Z",
+    "entity": "link-ventures",
+    "entityName": "Link Ventures",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "liquid"
+    ],
+    "after": "blitzy",
+    "summary": "Link Link Ventures → Blitzy",
+    "evidence": {
+      "source_url": "https://www.linkventures.com/",
+      "quote": "these incredible opportunities for founders.” Brendan Foody Mercor LinkedIn X \"We started Blitzy as two co-founders sharing a desk at Link Studio. Today we're over 100 people and growing.",
+      "kind": "official site (named in page text)"
+    },
+    "corroboration": {
+      "kind": "reciprocal atlas link",
+      "source_url": "https://github.com/holzerjm/mass-ai-atlas/blob/main/data/entities.yml#L668",
+      "detail": "Blitzy (blitzy) already lists link-ventures in its links — a person verified that edge"
+    },
+    "staged": false
+  },
+  {
+    "id": "07596be68a",
+    "status": "pending",
+    "created": "2026-10-31T16:43:10.462Z",
+    "entity": "massventures",
+    "entityName": "MassVentures",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "aihub"
+    ],
+    "after": "valis-insights",
+    "summary": "Link MassVentures → VALIS Insights",
+    "evidence": {
+      "source_url": "https://www.mass-ventures.com/start-program-info",
+      "quote": "link \"https://valisinsights.com/\" → https://valisinsights.com/",
+      "kind": "official site (hyperlink to its official site)"
+    },
+    "corroboration": {
+      "kind": "reciprocal atlas link",
+      "source_url": "https://github.com/holzerjm/mass-ai-atlas/blob/main/data/entities.yml#L1109",
+      "detail": "VALIS Insights (valis-insights) already lists massventures in its links — a person verified that edge"
+    },
+    "staged": false
+  },
+  {
+    "id": "ce276c51f7",
+    "status": "pending",
+    "created": "2026-10-31T16:43:10.485Z",
+    "entity": "link-ventures",
+    "entityName": "Link Ventures",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "liquid"
+    ],
+    "after": "imagination",
+    "summary": "Link Link Ventures → Imagination in Action",
+    "evidence": {
+      "source_url": "https://www.linkventures.com/about",
+      "quote": "exchange. He is the Founder & CEO of Ideas in Action a non-profit that creates and produces, Imagination in Action , that takes place during the World Economic Forum in Davos and at MIT; TEDxMIT (which was",
+      "kind": "official site (named in a person's bio — a tie through a person, weaker than an org-level link)"
+    },
+    "corroboration": {
+      "kind": "reciprocal mention on the other org's site",
+      "source_url": "https://imaginationinaction.co/",
+      "quote": "Koller Founder & CEO, insitro Co-founder, Coursera Investor Dave Blundin Managing Partner Link Ventures Investor Dave Blundin Managing Partner Link Ventures Enterprise David Kenny Chairman Nielsen",
+      "detail": "named in page text"
+    },
+    "staged": false
+  },
+  {
+    "id": "dd22ed1b09",
+    "status": "pending",
+    "created": "2026-10-31T16:43:10.844Z",
+    "entity": "ilab",
+    "entityName": "Harvard Innovation Labs",
+    "module": "scout",
+    "field": "loc",
+    "op": "confirm",
+    "confidence": "two-source",
+    "before": {
+      "loc": "125 Western Ave, Allston",
+      "lat": 42.3637,
+      "lng": -71.1252,
+      "approx": false
+    },
+    "after": {
+      "loc": "125 Western Ave, Allston",
+      "lat": 42.3637,
+      "lng": -71.1252,
+      "approx": false
+    },
+    "summary": "Confirm \"125 Western Ave, Allston\" — on the org's site, and OSM places it 16 m from the pin",
+    "evidence": {
+      "source_url": "https://innovationlabs.harvard.edu/",
+      "quote": "{\"@type\":\"PostalAddress\",\"addressCountry\":\"US\",\"addressLocality\":\"Allston\",\"addressRegion\":\"MA\",\"postalCode\":\"02163\",\"streetAddress\":\"Batten Hall, 125 Western Ave\"}",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/node/1399805958",
+      "detail": "125 Western Ave, Western Avenue, Barry's Corner, Allston, Boston, Suffolk County, Massachusetts, 02163, United States (42.3636711, -71.1250043)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=125%20Western%20Ave%2C%20Allston%2C%20Massachusetts"
+    },
+    "staged": false
+  },
+  {
+    "id": "43224c2213",
+    "status": "pending",
+    "created": "2026-10-31T16:43:11.435Z",
+    "entity": "deltav",
+    "entityName": "MIT delta v",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "trust",
+      "deltav-demo"
+    ],
+    "after": "milemark",
+    "summary": "Link MIT delta v → Milemark Capital",
+    "evidence": {
+      "source_url": "https://entrepreneurship.mit.edu/accelerator/partner-network/",
+      "quote": "link \"milemark•capital\" → https://www.milemark.capital/",
+      "kind": "official site (hyperlink to its official site)"
+    },
+    "corroboration": {
+      "kind": "reciprocal mention on the other org's site",
+      "source_url": "https://www.milemark.capital/",
+      "quote": "Jose Tomas Backstage at BIG.AI@MIT – Innovation Showcase (all videos here) SF Tech Week 2024 MIT delta v is an educational accelerator program at MIT that helps student entrepreneurs develop and",
+      "detail": "named in page text"
+    },
+    "staged": false
+  },
+  {
+    "id": "b2d73b03fd",
+    "status": "pending",
+    "created": "2026-10-31T16:43:11.534Z",
+    "entity": "idea-neu",
+    "entityName": "IDEA (Northeastern)",
+    "module": "scout",
+    "field": "location",
+    "op": "setGeo",
+    "confidence": "two-source",
+    "before": {
+      "loc": "Northeastern, Boston",
+      "lat": 42.3398,
+      "lng": -71.0892,
+      "approx": true
+    },
+    "after": {
+      "loc": "360 Huntington Ave, Boston",
+      "lat": 42.3402,
+      "lng": -71.0889,
+      "approx": false
+    },
+    "summary": "Sharpen approximate pin to \"360 Huntington Ave, Boston\" (0.05 km move)",
+    "evidence": {
+      "source_url": "https://www.ideaneu.com/contact-5",
+      "quote": "directly reach out as well! ideaneu@gmail.com Social Media Stop by the lab! 001 Hayden Hall, 360 Huntington Ave Boston, MA 02115 Check out our blog! ideaneu@gmail.com",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/node/1399809409",
+      "detail": "360 Huntington Ave, 360, Huntington Avenue, Fenway-Kenmore, Boston, Suffolk County, Massachusetts, 02115, United States (42.3402244, -71.0889188)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=360%20Huntington%20Ave%2C%20Boston%2C%20Massachusetts"
+    },
+    "staged": false
+  },
+  {
+    "id": "a353c2f62d",
+    "status": "pending",
+    "created": "2026-10-31T16:43:11.937Z",
+    "entity": "toa",
+    "entityName": "The Open Accelerator (TOA)",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "aihub",
+      "sundai",
+      "techweek"
+    ],
+    "after": "redhat-bos",
+    "summary": "Link The Open Accelerator (TOA) → Red Hat (Boston)",
+    "evidence": {
+      "source_url": "https://the-open-accelerator.com/",
+      "quote": "link \"https://www.redhat.com/\" → https://www.redhat.com/",
+      "kind": "official site (hyperlink to its official site)"
+    },
+    "corroboration": {
+      "kind": "reciprocal atlas link",
+      "source_url": "https://github.com/holzerjm/mass-ai-atlas/blob/main/data/entities.yml#L501",
+      "detail": "Red Hat (Boston) (redhat-bos) already lists toa in its links — a person verified that edge"
+    },
+    "staged": false
+  },
+  {
+    "id": "e7e19a8216",
+    "status": "pending",
+    "created": "2026-10-31T16:43:11.955Z",
+    "entity": "toa",
+    "entityName": "The Open Accelerator (TOA)",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "aihub",
+      "sundai",
+      "techweek"
+    ],
+    "after": "ibm-ventures",
+    "summary": "Link The Open Accelerator (TOA) → IBM Ventures",
+    "evidence": {
+      "source_url": "https://the-open-accelerator.com/",
+      "quote": "Collaborative AI Forging the future of AI together. An initiative between the MA AI Hub, Red Hat and IBM Ventures to empower Massachusetts AI founders with the networks, knowledge and skills to take innovations",
+      "kind": "official site (named in page text)"
+    },
+    "corroboration": {
+      "kind": "reciprocal atlas link",
+      "source_url": "https://github.com/holzerjm/mass-ai-atlas/blob/main/data/entities.yml#L1270",
+      "detail": "IBM Ventures (ibm-ventures) already lists toa in its links — a person verified that edge"
+    },
+    "staged": false
+  },
+  {
+    "id": "11b31f3b25",
+    "status": "pending",
+    "created": "2026-10-31T16:43:12.520Z",
+    "entity": "ai-biohub",
+    "entityName": "AI BioHub (LabCentral × C10 Labs)",
+    "module": "scout",
+    "field": "loc",
+    "op": "confirm",
+    "confidence": "two-source",
+    "before": {
+      "loc": "700 Main St North, Cambridge",
+      "lat": 42.3626,
+      "lng": -71.0951,
+      "approx": false
+    },
+    "after": {
+      "loc": "700 Main St North, Cambridge",
+      "lat": 42.3626,
+      "lng": -71.0951,
+      "approx": false
+    },
+    "summary": "Confirm \"700 Main St North, Cambridge\" — on the org's site, and OSM places it 4 m from the pin",
+    "evidence": {
+      "source_url": "https://www.labcentral.org/startup-support/ai-biohub",
+      "quote": "{\"@type\":\"PostalAddress\",\"streetAddress\":\"700 Main Street\",\"addressLocality\":\"North Cambridge\",\"addressRegion\":\"Massachusetts\",\"postalCode\":\"02139\",\"addressCountry\":\"US\"}",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/way/29804458",
+      "detail": "700, Main Street, Harlow Square, The Port, Cambridge, Middlesex County, Massachusetts, 02139, United States (42.3625813, -71.0950655)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=700%20Main%20St%2C%20Cambridge%2C%20Massachusetts"
+    },
+    "staged": false
+  },
+  {
+    "id": "0a525b46ce",
+    "status": "pending",
+    "created": "2026-10-31T16:43:12.720Z",
+    "entity": "worclab",
+    "entityName": "WorcLab",
+    "module": "scout",
+    "field": "loc",
+    "op": "confirm",
+    "confidence": "two-source",
+    "before": {
+      "loc": "44 Portland St, Worcester",
+      "lat": 42.2598,
+      "lng": -71.8019,
+      "approx": false
+    },
+    "after": {
+      "loc": "44 Portland St, Worcester",
+      "lat": 42.2598,
+      "lng": -71.8019,
+      "approx": false
+    },
+    "summary": "Confirm \"44 Portland St, Worcester\" — on the org's site, and OSM places it 6 m from the pin",
+    "evidence": {
+      "source_url": "https://worclab.org/",
+      "quote": "on our city’s renaissance. Learn More → Home Top Home WorcLab New Page Home Impact WORCLAB 44 Portland St. Floor 4, Worcester, MA 01608 Open 24/7 for Members (Please make an appointment to see the office manager) Email: info@worclab.org",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/way/94617171",
+      "detail": "Printers Building, 44;50, Portland Street, Central Business District, Worcester, Worcester County, Massachusetts, 01608, United States (42.2598456, -71.8018723)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=44%20Portland%20St%2C%20Worcester%2C%20Massachusetts"
+    },
+    "staged": false
+  },
+  {
+    "id": "1162390420",
+    "status": "pending",
+    "created": "2026-10-31T16:43:12.932Z",
+    "entity": "worclab",
+    "entityName": "WorcLab",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "wpi",
+      "masschallenge"
+    ],
+    "after": "startup-worcester",
+    "summary": "Link WorcLab → StartUp Worcester",
+    "evidence": {
+      "source_url": "https://worclab.org/",
+      "quote": "link \"Pre-Accelerator Program\" → https://www.worcesterchamber.org/startup-worcester/",
+      "kind": "official site (hyperlink to its official site)"
+    },
+    "corroboration": {
+      "kind": "reciprocal mention on the other org's site",
+      "source_url": "https://www.worcesterchamber.org/startup-worcester/",
+      "quote": "link \"WorcLab\" → https://worclab.org/",
+      "detail": "hyperlink to its official site"
+    },
+    "staged": false
+  },
+  {
+    "id": "ae3675a6da",
+    "status": "pending",
+    "created": "2026-10-31T16:43:13.195Z",
+    "entity": "mit-sandbox",
+    "entityName": "MIT Sandbox",
+    "module": "scout",
+    "field": "loc",
+    "op": "confirm",
+    "confidence": "two-source",
+    "before": {
+      "loc": "292 Main St, Cambridge",
+      "lat": 42.362,
+      "lng": -71.0858,
+      "approx": false
+    },
+    "after": {
+      "loc": "292 Main St, Cambridge",
+      "lat": 42.362,
+      "lng": -71.0858,
+      "approx": false
+    },
+    "summary": "Confirm \"292 Main St, Cambridge\" — on the org's site, and OSM places it 3 m from the pin",
+    "evidence": {
+      "source_url": "https://sandbox.mit.edu/",
+      "quote": "Sandbox Team News Back to Top MIT Sandbox Innovation Fund Program iHQ (Bldg E38 - 4th floor) 292 Main St, Cambridge, MA 02142 Accessibility Give Now Contact Us",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/way/1264845023",
+      "detail": "E38, 292, Main Street, MIT, Cambridge, Middlesex County, Massachusetts, 02142, United States (42.3620128, -71.0858305)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=292%20Main%20St%2C%20Cambridge%2C%20Massachusetts"
+    },
+    "staged": false
+  },
+  {
+    "id": "dd5b91a60b",
+    "status": "pending",
+    "created": "2026-10-31T16:43:13.222Z",
+    "entity": "masstech",
+    "entityName": "MassTech Collaborative",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "aihub",
+      "mghpcc",
+      "mehi-sandbox",
+      "massrobotics"
+    ],
+    "after": "masscybercenter",
+    "summary": "Link MassTech Collaborative → MassCyberCenter",
+    "evidence": {
+      "source_url": "https://masstech.org/",
+      "quote": "link \"Cyber\" → https://masscybercenter.org/",
+      "kind": "official site (hyperlink to its official site)"
+    },
+    "corroboration": {
+      "kind": "reciprocal atlas link",
+      "source_url": "https://github.com/holzerjm/mass-ai-atlas/blob/main/data/entities.yml#L3121",
+      "detail": "MassCyberCenter (masscybercenter) already lists masstech in its links — a person verified that edge"
+    },
+    "staged": false
+  },
+  {
+    "id": "7939886bc7",
+    "status": "pending",
+    "created": "2026-10-31T16:43:13.399Z",
+    "entity": "mit-sandbox",
+    "entityName": "MIT Sandbox",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "sbxi"
+    ],
+    "after": "vms",
+    "summary": "Link MIT Sandbox → MIT Venture Mentoring Service",
+    "evidence": {
+      "source_url": "https://sandbox.mit.edu/",
+      "quote": "link \"Venture Mentoring Services\" → https://vms.mit.edu/",
+      "kind": "official site (hyperlink to its official site)"
+    },
+    "corroboration": {
+      "kind": "reciprocal mention on the other org's site",
+      "source_url": "https://vms.mit.edu/application",
+      "quote": "Competition Deshpande Center D-Lab I-Corps IDEAS Global Challenge MassChallenge Martin Trust Center MIT Sandbox Innovation Fund Sloan Healthcare Innovations Prize MIT Startup Exchange Ventureships Other",
+      "detail": "named in page text"
+    },
+    "staged": false
+  },
+  {
+    "id": "81695e6642",
+    "status": "pending",
+    "created": "2026-10-31T16:43:13.436Z",
+    "entity": "mit-sandbox",
+    "entityName": "MIT Sandbox",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "sbxi"
+    ],
+    "after": "trust",
+    "summary": "Link MIT Sandbox → Martin Trust Center for MIT Entrepreneurship",
+    "evidence": {
+      "source_url": "https://sandbox.mit.edu/board-members",
+      "quote": "supporting her children’s sports team. Bill Aulet Bill Aulet is the Managing Director of the Martin Trust Center for MIT Entrepreneurship and Professor of the Practice at the MIT Sloan School of Management. Read More ▾ Bill is changing",
+      "kind": "official site (named in a person's bio — a tie through a person, weaker than an org-level link)"
+    },
+    "corroboration": {
+      "kind": "reciprocal mention on the other org's site",
+      "source_url": "https://entrepreneurship.mit.edu/campus-partners/",
+      "quote": "link \"More Information »\" → https://sandbox.mit.edu/",
+      "detail": "hyperlink to its official site"
+    },
+    "staged": false
+  },
+  {
+    "id": "57230ed03f",
+    "status": "pending",
+    "created": "2026-10-31T16:43:13.529Z",
+    "entity": "mit-sandbox",
+    "entityName": "MIT Sandbox",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "sbxi"
+    ],
+    "after": "glasswing",
+    "summary": "Link MIT Sandbox → Glasswing Ventures",
+    "evidence": {
+      "source_url": "https://sandbox.mit.edu/board-members",
+      "quote": "spends his weekends chasing his three boys around various athletic fields. Rick Grinnell , Glasswing Ventures Rick Grinnell is Founder and Managing Partner of Glasswing Ventures, focusing on investments",
+      "kind": "official site (named in a person's bio — a tie through a person, weaker than an org-level link)"
+    },
+    "corroboration": {
+      "kind": "reciprocal mention on the other org's site",
+      "source_url": "https://glasswing.vc/our-team/",
+      "quote": "the Rock Center for Entrepreneurship at Harvard Business School (HBS), a Board Member of the MIT Sandbox, an MIT iHQ Mentor, and a frequent judge at MassChallenge. He also serves on the Board of",
+      "detail": "named in a person's bio — a tie through a person, weaker than an org-level link"
+    },
+    "staged": false
+  },
+  {
+    "id": "d8c9d635a5",
+    "status": "pending",
+    "created": "2026-10-31T16:43:13.625Z",
+    "entity": "engine",
+    "entityName": "The Engine",
+    "module": "scout",
+    "field": "loc",
+    "op": "confirm",
+    "confidence": "two-source",
+    "before": {
+      "loc": "750 Main St, Cambridge",
+      "lat": 42.3636,
+      "lng": -71.0973,
+      "approx": false
+    },
+    "after": {
+      "loc": "750 Main St, Cambridge",
+      "lat": 42.3636,
+      "lng": -71.0973,
+      "approx": false
+    },
+    "summary": "Confirm \"750 Main St, Cambridge\" — on the org's site, and OSM places it 115 m from the pin",
+    "evidence": {
+      "source_url": "https://engine.xyz/",
+      "quote": "{\"@type\":\"PostalAddress\",\"addressCountry\":\"US\",\"addressLocality\":\"Cambridge\",\"addressRegion\":\"MA\",\"postalCode\":\"02139\",\"streetAddress\":\"750 Main St.\"}",
+      "kind": "official site"
+    },
+    "corroboration": {
+      "source_url": "https://www.openstreetmap.org/way/29621406",
+      "detail": "750, Main Street, Harlow Square, The Port, Cambridge, Middlesex County, Massachusetts, 02139, United States (42.3629293, -71.0962271)",
+      "kind": "OpenStreetMap Nominatim",
+      "search_url": "https://www.openstreetmap.org/search?query=750%20Main%20St%2C%20Cambridge%2C%20Massachusetts"
+    },
+    "staged": false
+  },
+  {
+    "id": "1e9df9a61c",
+    "status": "pending",
+    "created": "2026-10-31T16:43:13.776Z",
+    "entity": "engine",
+    "entityName": "The Engine",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "engine-v"
+    ],
+    "after": "commonwealth-fusion",
+    "summary": "Link The Engine → Commonwealth Fusion Systems",
+    "evidence": {
+      "source_url": "https://engine.xyz/",
+      "quote": "on bioprocess. HyperLight's 110 GHz modulator. \" alt=\"\" /> HyperLight's 110 GHz modulator. Commonwealth Fusion Systems' magnet factory in Devens. \" alt=\"\" /> Commonwealth Fusion Systems' magnet factory in Devens.",
+      "kind": "official site (named in page text)"
+    },
+    "corroboration": {
+      "kind": "reciprocal atlas link",
+      "source_url": "https://github.com/holzerjm/mass-ai-atlas/blob/main/data/entities.yml#L1125",
+      "detail": "Commonwealth Fusion Systems (commonwealth-fusion) already lists engine in its links — a person verified that edge"
+    },
+    "staged": false
+  },
+  {
+    "id": "95e33e91ff",
+    "status": "pending",
+    "created": "2026-10-31T16:43:14.156Z",
+    "entity": "massrobotics",
+    "entityName": "MassRobotics",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "masstech",
+      "nvidia-bos",
+      "amazon-sea"
+    ],
+    "after": "analog-devices",
+    "summary": "Link MassRobotics → Analog Devices",
+    "evidence": {
+      "source_url": "https://www.massrobotics.org/",
+      "quote": "our STEM initiatives More Join a challenge, attend an event MassRobotics Startups Visit the Analog Devices Emerging Tech Hub More MassRobotics: Interview With Co-Founder And Chief Of Operations Joyce",
+      "kind": "official site (named in page text)"
+    },
+    "corroboration": {
+      "kind": "reciprocal atlas link",
+      "source_url": "https://github.com/holzerjm/mass-ai-atlas/blob/main/data/entities.yml#L598",
+      "detail": "Analog Devices (analog-devices) already lists massrobotics in its links — a person verified that edge"
+    },
+    "staged": false
+  },
+  {
+    "id": "27e0ffd88e",
+    "status": "pending",
+    "created": "2026-10-31T16:43:14.314Z",
+    "entity": "massrobotics",
+    "entityName": "MassRobotics",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "masstech",
+      "nvidia-bos",
+      "amazon-sea"
+    ],
+    "after": "cic",
+    "summary": "Link MassRobotics → CIC Cambridge",
+    "evidence": {
+      "source_url": "https://www.massrobotics.org/sponsors/",
+      "quote": "link \"https://cic.com/\" → https://cic.com/",
+      "kind": "official site (hyperlink to its official site)"
+    },
+    "corroboration": {
+      "kind": "reciprocal mention on the other org's site",
+      "source_url": "https://cic.com/about/",
+      "quote": "single Cambridge location to a global company. He co-founded and chaired at launch LabCentral, MassRobotics, the Mass Mobility Hub, and the Kendall Square Association. Past roles include Lecturer at",
+      "detail": "named in page text"
+    },
+    "staged": false
+  },
+  {
+    "id": "cab2221dd5",
+    "status": "pending",
+    "created": "2026-10-31T16:43:14.594Z",
+    "entity": "massrobotics",
+    "entityName": "MassRobotics",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "masstech",
+      "nvidia-bos",
+      "amazon-sea"
+    ],
+    "after": "amazon-robotics",
+    "summary": "Link MassRobotics → Amazon Robotics",
+    "evidence": {
+      "source_url": "https://www.massrobotics.org/sponsor-directory/",
+      "quote": "SPONSORs Altium Transforming the Electronics Industry with Innovative PCB Design Software. Amazon Robotics Are you inspired by invention? Is problem solving through teamwork in your DNA? In Amazon",
+      "kind": "official site (named in page text)"
+    },
+    "corroboration": {
+      "kind": "reciprocal atlas link",
+      "source_url": "https://github.com/holzerjm/mass-ai-atlas/blob/main/data/entities.yml#L534",
+      "detail": "Amazon Robotics (amazon-robotics) already lists massrobotics in its links — a person verified that edge"
+    },
+    "staged": false
+  },
+  {
+    "id": "82dd464d6f",
+    "status": "pending",
+    "created": "2026-10-31T16:43:14.969Z",
+    "entity": "aihub",
+    "entityName": "Massachusetts AI Hub",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "two-source",
+    "before": [
+      "mghpcc",
+      "toa",
+      "massventures",
+      "masstech",
+      "google"
+    ],
+    "after": "masscybercenter",
+    "summary": "Link Massachusetts AI Hub → MassCyberCenter",
+    "evidence": {
+      "source_url": "https://aihub.masstech.org/",
+      "quote": "link \"Cyber\" → https://masscybercenter.org/",
+      "kind": "official site (hyperlink to its official site)"
+    },
+    "corroboration": {
+      "kind": "reciprocal atlas link",
+      "source_url": "https://github.com/holzerjm/mass-ai-atlas/blob/main/data/entities.yml#L3121",
+      "detail": "MassCyberCenter (masscybercenter) already lists aihub in its links — a person verified that edge"
+    },
+    "staged": false
+  },
+  {
+    "id": "525f29695b",
+    "status": "pending",
+    "created": "2026-10-31T17:28:09.472Z",
+    "entity": "orion-wave-technology",
+    "entityName": "Orion Wave Technology",
+    "module": "radar",
+    "field": "new entity",
+    "op": "addEntity",
+    "confidence": "registry + geocoder",
+    "before": null,
+    "after": {
+      "id": "orion-wave-technology",
+      "name": "Orion Wave Technology",
+      "cat": "startup",
+      "loc": "51 Wright St, Arlington",
+      "lat": 42.4321,
+      "lng": -71.1777,
+      "url": "",
+      "desc": "NSF SBIR Phase I awardee (2026) for \"SBIR Phase I: Analog Neural Networks Enabled by Tunable Apertures\".",
+      "offers": [],
+      "added": "2026-10"
+    },
+    "needs": [
+      "url (official website — no registry lists one; Atlas Weave will not guess a domain)",
+      "offers (what it gives founders — a registry cannot say)"
+    ],
+    "distanceKm": 13,
+    "outsideBoston": false,
+    "westOfWorcester": false,
+    "sources": [
+      "NSF Awards API"
+    ],
+    "summary": "New Entity Candidate (Human Gate Required): Orion Wave Technology, 51 Wright St, Arlington — 13 km from Boston",
+    "evidence": {
+      "source_url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2531891",
+      "quote": "ORION WAVE TECHNOLOGY CORPORATION · 51 WRIGHT ST, ARLINGTON, MA 024742452 · SBIR Phase I · \"SBIR Phase I: Analog Neural Networks Enabled by Tunable Apertures\" · 08/18/2026",
+      "kind": "NSF Awards API record"
+    },
+    "corroboration": {
+      "kind": "US Census Geocoder + OpenStreetMap agree",
+      "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=51+WRIGHT+ST%2C+ARLINGTON%2C+MA+02474&benchmark=Public_AR_Current&format=json",
+      "detail": "Census: 51 WRIGHT ST, ARLINGTON, MA, 02474 · OSM https://www.openstreetmap.org/way/196449512 (12 m apart)",
+      "second_url": "https://www.openstreetmap.org/way/196449512"
+    },
+    "geo": {
+      "kind": "US Census Geocoder + OpenStreetMap agree",
+      "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=51+WRIGHT+ST%2C+ARLINGTON%2C+MA+02474&benchmark=Public_AR_Current&format=json",
+      "detail": "Census: 51 WRIGHT ST, ARLINGTON, MA, 02474 · OSM https://www.openstreetmap.org/way/196449512 (12 m apart)",
+      "second_url": "https://www.openstreetmap.org/way/196449512"
+    },
+    "dedupe": [
+      "no entry matches name \"orion wave technology\", or address"
+    ]
+  },
+  {
+    "id": "63b4227bc9",
+    "status": "pending",
+    "created": "2026-10-31T17:28:09.500Z",
+    "entity": "betafeld",
+    "entityName": "Betafeld",
+    "module": "radar",
+    "field": "new entity",
+    "op": "addEntity",
+    "confidence": "registry + geocoder",
+    "before": null,
+    "after": {
+      "id": "betafeld",
+      "name": "Betafeld",
+      "cat": "startup",
+      "loc": "245 First Street, Cambridge",
+      "lat": 42.3635,
+      "lng": -71.0787,
+      "url": "",
+      "desc": "NSF SBIR Phase II awardee (2026) for \"SBIR Phase II: Improved Utilization through Artificial Intelligence and Prescriptive Logistics\".",
+      "offers": [],
+      "added": "2026-10"
+    },
+    "needs": [
+      "url (official website — no registry lists one; Atlas Weave will not guess a domain)",
+      "offers (what it gives founders — a registry cannot say)"
+    ],
+    "distanceKm": 2,
+    "outsideBoston": false,
+    "westOfWorcester": false,
+    "sources": [
+      "NSF Awards API"
+    ],
+    "summary": "New Entity Candidate (Human Gate Required): Betafeld, 245 First Street, Cambridge — 2 km from Boston",
+    "evidence": {
+      "source_url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2537269",
+      "quote": "BETAFELD LLC · 245 FIRST STREET, CAMBRIDGE, MA 021421200 · SBIR Phase II · \"SBIR Phase II: Improved Utilization through Artificial Intelligence and Prescriptive Logistics\" · 07/21/2026",
+      "kind": "NSF Awards API record"
+    },
+    "corroboration": {
+      "kind": "US Census Geocoder + OpenStreetMap agree",
+      "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=245+FIRST+STREET%2C+CAMBRIDGE%2C+MA+02142&benchmark=Public_AR_Current&format=json",
+      "detail": "Census: 245 1ST ST, CAMBRIDGE, MA, 02142 · OSM https://www.openstreetmap.org/way/29945511 (49 m apart)",
+      "second_url": "https://www.openstreetmap.org/way/29945511"
+    },
+    "geo": {
+      "kind": "US Census Geocoder + OpenStreetMap agree",
+      "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=245+FIRST+STREET%2C+CAMBRIDGE%2C+MA+02142&benchmark=Public_AR_Current&format=json",
+      "detail": "Census: 245 1ST ST, CAMBRIDGE, MA, 02142 · OSM https://www.openstreetmap.org/way/29945511 (49 m apart)",
+      "second_url": "https://www.openstreetmap.org/way/29945511"
+    },
+    "dedupe": [
+      "no entry matches name \"betafeld\", or address"
+    ]
+  },
+  {
+    "id": "c5b9d76b19",
+    "status": "pending",
+    "created": "2026-10-31T17:28:09.526Z",
+    "entity": "set-therapeutics",
+    "entityName": "Set Therapeutics",
+    "module": "radar",
+    "field": "new entity",
+    "op": "addEntity",
+    "confidence": "registry + geocoder",
+    "before": null,
+    "after": {
+      "id": "set-therapeutics",
+      "name": "Set Therapeutics",
+      "cat": "startup",
+      "loc": "65 Hall Ave, Somerville",
+      "lat": 42.3978,
+      "lng": -71.1187,
+      "url": "",
+      "desc": "NSF SBIR Phase I awardee (2026) for \"SBIR Phase I: Isolating and Reformatting Immune Receptors into Targeting Therapies for Oncology, Auto-Immunity, and Infectious Diseases\".",
+      "offers": [],
+      "added": "2026-10"
+    },
+    "needs": [
+      "url (official website — no registry lists one; Atlas Weave will not guess a domain)",
+      "offers (what it gives founders — a registry cannot say)"
+    ],
+    "distanceKm": 6,
+    "outsideBoston": false,
+    "westOfWorcester": false,
+    "sources": [
+      "NSF Awards API"
+    ],
+    "summary": "New Entity Candidate (Human Gate Required): Set Therapeutics, 65 Hall Ave, Somerville — 6 km from Boston",
+    "evidence": {
+      "source_url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2537433",
+      "quote": "SET THERAPEUTICS INC · 65 HALL AVE, SOMERVILLE, MA 021442003 · SBIR Phase I · \"SBIR Phase I: Isolating and Reformatting Immune Receptors into Targeting Therapies for Oncology, Auto-Immunity, and Infectious Diseases\" · 06/23/2026",
+      "kind": "NSF Awards API record"
+    },
+    "corroboration": {
+      "kind": "US Census Geocoder + OpenStreetMap agree",
+      "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=65+HALL+AVE%2C+SOMERVILLE%2C+MA+02144&benchmark=Public_AR_Current&format=json",
+      "detail": "Census: 65 HALL AVE, SOMERVILLE, MA, 02144 · OSM https://www.openstreetmap.org/way/29787491 (66 m apart)",
+      "second_url": "https://www.openstreetmap.org/way/29787491"
+    },
+    "geo": {
+      "kind": "US Census Geocoder + OpenStreetMap agree",
+      "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=65+HALL+AVE%2C+SOMERVILLE%2C+MA+02144&benchmark=Public_AR_Current&format=json",
+      "detail": "Census: 65 HALL AVE, SOMERVILLE, MA, 02144 · OSM https://www.openstreetmap.org/way/29787491 (66 m apart)",
+      "second_url": "https://www.openstreetmap.org/way/29787491"
+    },
+    "dedupe": [
+      "no entry matches name \"set therapeutics\", or address"
+    ]
+  },
+  {
+    "id": "54980c5859",
+    "status": "pending",
+    "created": "2026-10-31T17:28:09.563Z",
+    "entity": "vectorwave",
+    "entityName": "Vectorwave",
+    "module": "radar",
+    "field": "new entity",
+    "op": "addEntity",
+    "confidence": "registry + geocoder",
+    "before": null,
+    "after": {
+      "id": "vectorwave",
+      "name": "Vectorwave",
+      "cat": "startup",
+      "loc": "77 Rowe St Unit 001e, Auburndale",
+      "lat": 42.3474,
+      "lng": -71.2418,
+      "url": "",
+      "desc": "NSF SBIR Phase I awardee (2025) for \"SBIR Phase I: Spectrum Coexistence Digital Twin\".",
+      "offers": [],
+      "added": "2026-10"
+    },
+    "needs": [
+      "url (official website — no registry lists one; Atlas Weave will not guess a domain)",
+      "offers (what it gives founders — a registry cannot say)"
+    ],
+    "distanceKm": 15,
+    "outsideBoston": false,
+    "westOfWorcester": false,
+    "sources": [
+      "NSF Awards API"
+    ],
+    "summary": "New Entity Candidate (Human Gate Required): Vectorwave, 77 Rowe St Unit 001e, Auburndale — 15 km from Boston",
+    "evidence": {
+      "source_url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2528405",
+      "quote": "VECTORWAVE CORPORATION · 77 ROWE ST UNIT 001E, AUBURNDALE, MA 024661532 · SBIR Phase I · \"SBIR Phase I: Spectrum Coexistence Digital Twin\" · 09/04/2025",
+      "kind": "NSF Awards API record"
+    },
+    "corroboration": {
+      "kind": "US Census Geocoder",
+      "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=77+ROWE+ST+UNIT+001E%2C+AUBURNDALE%2C+MA+02466&benchmark=Public_AR_Current&format=json",
+      "detail": "Census matched \"77 ROWE ST, AUBURNDALE, MA, 02466\" (OpenStreetMap did not place it)"
+    },
+    "geo": {
+      "kind": "US Census Geocoder",
+      "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=77+ROWE+ST+UNIT+001E%2C+AUBURNDALE%2C+MA+02466&benchmark=Public_AR_Current&format=json",
+      "detail": "Census matched \"77 ROWE ST, AUBURNDALE, MA, 02466\" (OpenStreetMap did not place it)"
+    },
+    "dedupe": [
+      "no entry matches name \"vectorwave\", or address"
+    ]
+  },
+  {
+    "id": "19f9ac5c88",
+    "status": "pending",
+    "created": "2026-10-31T17:28:09.600Z",
+    "entity": "quantum-formatics",
+    "entityName": "Quantum Formatics",
+    "module": "radar",
+    "field": "new entity",
+    "op": "addEntity",
+    "confidence": "registry + geocoder",
+    "before": null,
+    "after": {
+      "id": "quantum-formatics",
+      "name": "Quantum Formatics",
+      "cat": "startup",
+      "loc": "144 Spring St Apt 2, Cambridge",
+      "lat": 42.3695,
+      "lng": -71.0848,
+      "url": "",
+      "desc": "NSF SBIR Phase I awardee (2025) for \"SBIR Phase I: AI-Accelerate Superconductor Discovery for High-Field Magnets\".",
+      "offers": [],
+      "added": "2026-10"
+    },
+    "needs": [
+      "url (official website — no registry lists one; Atlas Weave will not guess a domain)",
+      "offers (what it gives founders — a registry cannot say)"
+    ],
+    "distanceKm": 2,
+    "outsideBoston": false,
+    "westOfWorcester": false,
+    "sources": [
+      "NSF Awards API"
+    ],
+    "summary": "New Entity Candidate (Human Gate Required): Quantum Formatics, 144 Spring St Apt 2, Cambridge — 2 km from Boston",
+    "evidence": {
+      "source_url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2528312",
+      "quote": "QUANTUM FORMATICS CORP. · 144 SPRING ST APT 2, CAMBRIDGE, MA 021412070 · SBIR Phase I · \"SBIR Phase I: AI-Accelerate Superconductor Discovery for High-Field Magnets\" · 09/04/2025",
+      "kind": "NSF Awards API record"
+    },
+    "corroboration": {
+      "kind": "US Census Geocoder",
+      "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=144+SPRING+ST+APT+2%2C+CAMBRIDGE%2C+MA+02141&benchmark=Public_AR_Current&format=json",
+      "detail": "Census matched \"144 SPRING ST, CAMBRIDGE, MA, 02141\" (OpenStreetMap did not place it)"
+    },
+    "geo": {
+      "kind": "US Census Geocoder",
+      "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=144+SPRING+ST+APT+2%2C+CAMBRIDGE%2C+MA+02141&benchmark=Public_AR_Current&format=json",
+      "detail": "Census matched \"144 SPRING ST, CAMBRIDGE, MA, 02141\" (OpenStreetMap did not place it)"
+    },
+    "dedupe": [
+      "no entry matches name \"quantum formatics\", or address"
+    ]
+  },
+  {
+    "id": "df1558e811",
+    "status": "pending",
+    "created": "2026-10-31T17:28:09.626Z",
+    "entity": "ciphersonic-labs",
+    "entityName": "Ciphersonic Labs",
+    "module": "radar",
+    "field": "new entity",
+    "op": "addEntity",
+    "confidence": "registry + geocoder",
+    "before": null,
+    "after": {
+      "id": "ciphersonic-labs",
+      "name": "Ciphersonic Labs",
+      "cat": "startup",
+      "loc": "217 Thorndike St Apt 209, Cambridge",
+      "lat": 42.3706,
+      "lng": -71.0874,
+      "url": "",
+      "desc": "NSF SBIR Phase I awardee (2025) for \"SBIR Phase I: Bridging Multi-Party Computation and Fully Homomorphic Encryption for Practical Data Security Solutions\".",
+      "offers": [],
+      "added": "2026-10"
+    },
+    "needs": [
+      "url (official website — no registry lists one; Atlas Weave will not guess a domain)",
+      "offers (what it gives founders — a registry cannot say)"
+    ],
+    "distanceKm": 3,
+    "outsideBoston": false,
+    "westOfWorcester": false,
+    "sources": [
+      "NSF Awards API"
+    ],
+    "summary": "New Entity Candidate (Human Gate Required): Ciphersonic Labs, 217 Thorndike St Apt 209, Cambridge — 3 km from Boston",
+    "evidence": {
+      "source_url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2528288",
+      "quote": "CIPHERSONIC LABS INC · 217 THORNDIKE ST APT 209, CAMBRIDGE, MA 021411505 · SBIR Phase I · \"SBIR Phase I: Bridging Multi-Party Computation and Fully Homomorphic Encryption for Practical Data Security Solutions\" · 08/21/2025",
+      "kind": "NSF Awards API record"
+    },
+    "corroboration": {
+      "kind": "US Census Geocoder",
+      "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=217+THORNDIKE+ST+APT+209%2C+CAMBRIDGE%2C+MA+02141&benchmark=Public_AR_Current&format=json",
+      "detail": "Census matched \"217 THORNDIKE ST, CAMBRIDGE, MA, 02141\" (OpenStreetMap did not place it)"
+    },
+    "geo": {
+      "kind": "US Census Geocoder",
+      "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=217+THORNDIKE+ST+APT+209%2C+CAMBRIDGE%2C+MA+02141&benchmark=Public_AR_Current&format=json",
+      "detail": "Census matched \"217 THORNDIKE ST, CAMBRIDGE, MA, 02141\" (OpenStreetMap did not place it)"
+    },
+    "dedupe": [
+      "no entry matches name \"ciphersonic labs\", or address"
+    ]
+  },
+  {
+    "id": "6c0655302d",
+    "status": "pending",
+    "created": "2026-10-31T17:28:09.652Z",
+    "entity": "h2c-energy",
+    "entityName": "H2c Energy",
+    "module": "radar",
+    "field": "new entity",
+    "op": "addEntity",
+    "confidence": "registry + geocoder",
+    "before": null,
+    "after": {
+      "id": "h2c-energy",
+      "name": "H2c Energy",
+      "cat": "startup",
+      "loc": "32 Waltham St, Woburn",
+      "lat": 42.4581,
+      "lng": -71.1784,
+      "url": "",
+      "desc": "NSF STTR Phase I awardee (2025) for \"STTR Phase I: High Throughput Discovery of Catalysts for Water Electrolysis Anion-Exchange Membranes\".",
+      "offers": [],
+      "added": "2026-10"
+    },
+    "needs": [
+      "url (official website — no registry lists one; Atlas Weave will not guess a domain)",
+      "offers (what it gives founders — a registry cannot say)"
+    ],
+    "distanceKm": 15,
+    "outsideBoston": false,
+    "westOfWorcester": false,
+    "sources": [
+      "NSF Awards API"
+    ],
+    "summary": "New Entity Candidate (Human Gate Required): H2c Energy, 32 Waltham St, Woburn — 15 km from Boston",
+    "evidence": {
+      "source_url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2528067",
+      "quote": "H2C ENERGY INC. · 32 WALTHAM ST, WOBURN, MA 018015970 · STTR Phase I · \"STTR Phase I: High Throughput Discovery of Catalysts for Water Electrolysis Anion-Exchange Membranes\" · 08/27/2025",
+      "kind": "NSF Awards API record"
+    },
+    "corroboration": {
+      "kind": "US Census Geocoder + OpenStreetMap agree",
+      "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=32+WALTHAM+ST%2C+WOBURN%2C+MA+01801&benchmark=Public_AR_Current&format=json",
+      "detail": "Census: 32 WALTHAM ST, WOBURN, MA, 01801 · OSM https://www.openstreetmap.org/way/214155452 (133 m apart)",
+      "second_url": "https://www.openstreetmap.org/way/214155452"
+    },
+    "geo": {
+      "kind": "US Census Geocoder + OpenStreetMap agree",
+      "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=32+WALTHAM+ST%2C+WOBURN%2C+MA+01801&benchmark=Public_AR_Current&format=json",
+      "detail": "Census: 32 WALTHAM ST, WOBURN, MA, 01801 · OSM https://www.openstreetmap.org/way/214155452 (133 m apart)",
+      "second_url": "https://www.openstreetmap.org/way/214155452"
+    },
+    "dedupe": [
+      "no entry matches name \"h2c energy\", or address"
+    ]
+  },
+  {
+    "id": "464338df1e",
+    "status": "pending",
+    "created": "2026-10-31T17:28:09.684Z",
+    "entity": "raylife",
+    "entityName": "Raylife",
+    "module": "radar",
+    "field": "new entity",
+    "op": "addEntity",
+    "confidence": "registry + geocoder",
+    "before": null,
+    "after": {
+      "id": "raylife",
+      "name": "Raylife",
+      "cat": "startup",
+      "loc": "12 Channel St Ste 202, Boston",
+      "lat": 42.345,
+      "lng": -71.0372,
+      "url": "",
+      "desc": "NSF SBIR Phase I awardee (2026) for \"SBIR Phase I: Development of Novel Optoelectronics Technology for Non-Invasive, Continuous Blood Glucose Monitoring\".",
+      "offers": [],
+      "added": "2026-10"
+    },
+    "needs": [
+      "url (official website — no registry lists one; Atlas Weave will not guess a domain)",
+      "offers (what it gives founders — a registry cannot say)"
+    ],
+    "distanceKm": 2,
+    "outsideBoston": false,
+    "westOfWorcester": false,
+    "sources": [
+      "NSF Awards API"
+    ],
+    "summary": "New Entity Candidate (Human Gate Required): Raylife, 12 Channel St Ste 202, Boston — 2 km from Boston",
+    "evidence": {
+      "source_url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2537536",
+      "quote": "RAYLIFE INC. · 12 CHANNEL ST STE 202, BOSTON, MA 022102399 · SBIR Phase I · \"SBIR Phase I: Development of Novel Optoelectronics Technology for Non-Invasive, Continuous Blood Glucose Monitoring\" · 06/17/2026",
+      "kind": "NSF Awards API record"
+    },
+    "corroboration": {
+      "kind": "US Census Geocoder",
+      "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=12+CHANNEL+ST+STE+202%2C+BOSTON%2C+MA+02210&benchmark=Public_AR_Current&format=json",
+      "detail": "Census matched \"12 CHANNEL ST, BOSTON, MA, 02210\" (OpenStreetMap did not place it)"
+    },
+    "geo": {
+      "kind": "US Census Geocoder",
+      "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=12+CHANNEL+ST+STE+202%2C+BOSTON%2C+MA+02210&benchmark=Public_AR_Current&format=json",
+      "detail": "Census matched \"12 CHANNEL ST, BOSTON, MA, 02210\" (OpenStreetMap did not place it)"
+    },
+    "dedupe": [
+      "no entry matches name \"raylife\", or address"
+    ]
+  },
+  {
+    "id": "14093f350b",
+    "status": "pending",
+    "created": "2026-10-31T17:28:09.726Z",
+    "entity": "labby",
+    "entityName": "Labby",
+    "module": "radar",
+    "field": "new entity",
+    "op": "addEntity",
+    "confidence": "registry + geocoder",
+    "before": null,
+    "after": {
+      "id": "labby",
+      "name": "Labby",
+      "cat": "startup",
+      "loc": "Brighton",
+      "lat": 42.3492,
+      "lng": -71.1534,
+      "approx": true,
+      "url": "",
+      "desc": "NIH NIH SBIR/STTR awardee (2026) for \"Development of a milk analyzing technology for the detection of antibiotic contamination using fluorescence spectroscopy and artificial intelligence.\".",
+      "offers": [],
+      "added": "2026-10"
+    },
+    "needs": [
+      "url (official website — no registry lists one; Atlas Weave will not guess a domain)",
+      "offers (what it gives founders — a registry cannot say)"
+    ],
+    "distanceKm": 8,
+    "outsideBoston": false,
+    "westOfWorcester": false,
+    "sources": [
+      "NIH RePORTER"
+    ],
+    "summary": "New Entity Candidate (Human Gate Required): Labby, Brighton — 8 km from Boston",
+    "evidence": {
+      "source_url": "https://reporter.nih.gov/project-details/11068071",
+      "quote": "LABBY INC. · BRIGHTON, MA · NIH SBIR/STTR · \"Development of a milk analyzing technology for the detection of antibiotic contamination using fluorescence spectroscopy and artificial intelligence.\" · 2026-09-30",
+      "kind": "NIH RePORTER record"
+    },
+    "corroboration": {
+      "kind": "OpenStreetMap (city level)",
+      "source_url": "https://www.openstreetmap.org/relation/4033662",
+      "detail": "Brighton, Boston, Suffolk County, Massachusetts, 02135, United States — no street address in the registry, so the pin is approximate"
+    },
+    "geo": {
+      "kind": "OpenStreetMap (city level)",
+      "source_url": "https://www.openstreetmap.org/relation/4033662",
+      "detail": "Brighton, Boston, Suffolk County, Massachusetts, 02135, United States — no street address in the registry, so the pin is approximate"
+    },
+    "dedupe": [
+      "no entry matches name \"labby\""
+    ]
+  },
+  {
+    "id": "1f638ed488",
+    "status": "pending",
+    "created": "2026-10-31T17:28:09.763Z",
+    "entity": "environment-and-health",
+    "entityName": "Environment And Health Group",
+    "module": "radar",
+    "field": "new entity",
+    "op": "addEntity",
+    "confidence": "registry + geocoder",
+    "before": null,
+    "after": {
+      "id": "environment-and-health",
+      "name": "Environment And Health Group",
+      "cat": "startup",
+      "loc": "Cambridge",
+      "lat": 42.3656,
+      "lng": -71.104,
+      "approx": true,
+      "url": "",
+      "desc": "NIH NIH SBIR/STTR awardee (2026) for \"HeartSense.AI: A Generative AI-Driven Mobile Health Solution to Improve Hypertension Control Among Lower Income Adults\".",
+      "offers": [],
+      "added": "2026-10"
+    },
+    "needs": [
+      "url (official website — no registry lists one; Atlas Weave will not guess a domain)",
+      "offers (what it gives founders — a registry cannot say)"
+    ],
+    "distanceKm": 4,
+    "outsideBoston": false,
+    "westOfWorcester": false,
+    "sources": [
+      "NIH RePORTER"
+    ],
+    "summary": "New Entity Candidate (Human Gate Required): Environment And Health Group, Cambridge — 4 km from Boston",
+    "evidence": {
+      "source_url": "https://reporter.nih.gov/project-details/11350027",
+      "quote": "ENVIRONMENT AND HEALTH GROUP, INC. · CAMBRIDGE, MA · NIH SBIR/STTR · \"HeartSense.AI: A Generative AI-Driven Mobile Health Solution to Improve Hypertension Control Among Lower Income Adults\" · 2026-08-05",
+      "kind": "NIH RePORTER record"
+    },
+    "corroboration": {
+      "kind": "OpenStreetMap (city level)",
+      "source_url": "https://www.openstreetmap.org/relation/1933745",
+      "detail": "Cambridge, Middlesex County, Massachusetts, United States — no street address in the registry, so the pin is approximate"
+    },
+    "geo": {
+      "kind": "OpenStreetMap (city level)",
+      "source_url": "https://www.openstreetmap.org/relation/1933745",
+      "detail": "Cambridge, Middlesex County, Massachusetts, United States — no street address in the registry, so the pin is approximate"
+    },
+    "dedupe": [
+      "no entry matches name \"environment and health\""
+    ]
+  },
+  {
+    "id": "99ac1dace5",
+    "status": "pending",
+    "created": "2026-10-31T17:28:09.790Z",
+    "entity": "behavior-change-hub-liability",
+    "entityName": "Behavior Change Hub Limited Liability",
+    "module": "radar",
+    "field": "new entity",
+    "op": "addEntity",
+    "confidence": "registry + geocoder",
+    "before": null,
+    "after": {
+      "id": "behavior-change-hub-liability",
+      "name": "Behavior Change Hub Limited Liability",
+      "cat": "startup",
+      "loc": "Boston",
+      "lat": 42.3588,
+      "lng": -71.0578,
+      "approx": true,
+      "url": "",
+      "desc": "NIH NIH SBIR/STTR awardee (2026) for \"Addiction Application Gradebook: Fostering greater public health impact from mHealth applications for SUD\".",
+      "offers": [],
+      "added": "2026-10"
+    },
+    "needs": [
+      "url (official website — no registry lists one; Atlas Weave will not guess a domain)",
+      "offers (what it gives founders — a registry cannot say)"
+    ],
+    "distanceKm": 0,
+    "outsideBoston": false,
+    "westOfWorcester": false,
+    "sources": [
+      "NIH RePORTER"
+    ],
+    "summary": "New Entity Candidate (Human Gate Required): Behavior Change Hub Limited Liability, Boston — 0 km from Boston",
+    "evidence": {
+      "source_url": "https://reporter.nih.gov/project-details/11240509",
+      "quote": "BEHAVIOR CHANGE HUB LIMITED LIABILITY COMPANY · Boston, MA · NIH SBIR/STTR · \"Addiction Application Gradebook: Fostering greater public health impact from mHealth applications for SUD\" · 2026-06-15",
+      "kind": "NIH RePORTER record"
+    },
+    "corroboration": {
+      "kind": "OpenStreetMap (city level)",
+      "source_url": "https://www.openstreetmap.org/relation/2315704",
+      "detail": "Boston, Suffolk County, Massachusetts, United States — no street address in the registry, so the pin is approximate"
+    },
+    "geo": {
+      "kind": "OpenStreetMap (city level)",
+      "source_url": "https://www.openstreetmap.org/relation/2315704",
+      "detail": "Boston, Suffolk County, Massachusetts, United States — no street address in the registry, so the pin is approximate"
+    },
+    "dedupe": [
+      "no entry matches name \"behavior change hub liability\""
+    ]
+  },
+  {
+    "id": "05c1f03bba",
+    "status": "pending",
+    "created": "2026-10-31T17:28:09.822Z",
+    "entity": "stealth-labs",
+    "entityName": "Stealth Labs",
+    "module": "radar",
+    "field": "new entity",
+    "op": "addEntity",
+    "confidence": "registry + geocoder",
+    "before": null,
+    "after": {
+      "id": "stealth-labs",
+      "name": "Stealth Labs",
+      "cat": "startup",
+      "loc": "Brookline",
+      "lat": 42.3329,
+      "lng": -71.1188,
+      "approx": true,
+      "url": "",
+      "desc": "NIH NIH SBIR/STTR awardee (2026) for \"REST- Respiratory Ear System for CPAP Therapy adherence\".",
+      "offers": [],
+      "added": "2026-10"
+    },
+    "needs": [
+      "url (official website — no registry lists one; Atlas Weave will not guess a domain)",
+      "offers (what it gives founders — a registry cannot say)"
+    ],
+    "distanceKm": 6,
+    "outsideBoston": false,
+    "westOfWorcester": false,
+    "sources": [
+      "NIH RePORTER"
+    ],
+    "summary": "New Entity Candidate (Human Gate Required): Stealth Labs, Brookline — 6 km from Boston",
+    "evidence": {
+      "source_url": "https://reporter.nih.gov/project-details/11408674",
+      "quote": "STEALTH LABS INC. · BROOKLINE, MA · NIH SBIR/STTR · \"REST- Respiratory Ear System for CPAP Therapy adherence\" · 2026-09-05",
+      "kind": "NIH RePORTER record"
+    },
+    "corroboration": {
+      "kind": "OpenStreetMap (city level)",
+      "source_url": "https://www.openstreetmap.org/relation/2306361",
+      "detail": "Brookline, Norfolk County, Massachusetts, United States — no street address in the registry, so the pin is approximate"
+    },
+    "geo": {
+      "kind": "OpenStreetMap (city level)",
+      "source_url": "https://www.openstreetmap.org/relation/2306361",
+      "detail": "Brookline, Norfolk County, Massachusetts, United States — no street address in the registry, so the pin is approximate"
+    },
+    "dedupe": [
+      "no entry matches name \"stealth labs\""
+    ]
+  },
+  {
+    "id": "80a1775d27",
+    "status": "pending",
+    "created": "2026-10-31T17:28:09.849Z",
+    "entity": "trican-health",
+    "entityName": "Trican Health",
+    "module": "radar",
+    "field": "new entity",
+    "op": "addEntity",
+    "confidence": "registry + geocoder",
+    "before": null,
+    "after": {
+      "id": "trican-health",
+      "name": "Trican Health",
+      "cat": "startup",
+      "loc": "Lexington",
+      "lat": 42.4473,
+      "lng": -71.2245,
+      "approx": true,
+      "url": "",
+      "desc": "NIH NIH SBIR/STTR awardee (2026) for \"Overcoming Access Barriers to Cancer Clinical Trials via an Innovative Platform for Matching Patients to Trials and Resources\".",
+      "offers": [],
+      "added": "2026-10"
+    },
+    "needs": [
+      "url (official website — no registry lists one; Atlas Weave will not guess a domain)",
+      "offers (what it gives founders — a registry cannot say)"
+    ],
+    "distanceKm": 17,
+    "outsideBoston": false,
+    "westOfWorcester": false,
+    "sources": [
+      "NIH RePORTER"
+    ],
+    "summary": "New Entity Candidate (Human Gate Required): Trican Health, Lexington — 17 km from Boston",
+    "evidence": {
+      "source_url": "https://reporter.nih.gov/project-details/11312246",
+      "quote": "TRICAN HEALTH, INC · LEXINGTON, MA · NIH SBIR/STTR · \"Overcoming Access Barriers to Cancer Clinical Trials via an Innovative Platform for Matching Patients to Trials and Resources\" · 2026-09-14",
+      "kind": "NIH RePORTER record"
+    },
+    "corroboration": {
+      "kind": "OpenStreetMap (city level)",
+      "source_url": "https://www.openstreetmap.org/relation/1840167",
+      "detail": "Lexington, Middlesex County, Massachusetts, United States — no street address in the registry, so the pin is approximate"
+    },
+    "geo": {
+      "kind": "OpenStreetMap (city level)",
+      "source_url": "https://www.openstreetmap.org/relation/1840167",
+      "detail": "Lexington, Middlesex County, Massachusetts, United States — no street address in the registry, so the pin is approximate"
+    },
+    "dedupe": [
+      "no entry matches name \"trican health\""
+    ]
+  },
+  {
+    "id": "4f3c714587",
+    "status": "pending",
+    "created": "2026-10-31T17:28:09.880Z",
+    "entity": "hopeful-aging",
+    "entityName": "Hopeful Aging",
+    "module": "radar",
+    "field": "new entity",
+    "op": "addEntity",
+    "confidence": "registry + geocoder",
+    "before": null,
+    "after": {
+      "id": "hopeful-aging",
+      "name": "Hopeful Aging",
+      "cat": "startup",
+      "loc": "Winchester",
+      "lat": 42.4523,
+      "lng": -71.137,
+      "approx": true,
+      "url": "",
+      "desc": "NIH NIH SBIR/STTR awardee (2021) for \"The BRAIN App: Building Relationships using Artificial Intelligence and Nostalgia\".",
+      "offers": [],
+      "added": "2026-10"
+    },
+    "needs": [
+      "url (official website — no registry lists one; Atlas Weave will not guess a domain)",
+      "offers (what it gives founders — a registry cannot say)"
+    ],
+    "distanceKm": 12,
+    "outsideBoston": false,
+    "westOfWorcester": false,
+    "sources": [
+      "NIH RePORTER"
+    ],
+    "summary": "New Entity Candidate (Human Gate Required): Hopeful Aging, Winchester — 12 km from Boston",
+    "evidence": {
+      "source_url": "https://reporter.nih.gov/project-details/10991402",
+      "quote": "HOPEFUL AGING LLC · WINCHESTER, MA · NIH SBIR/STTR · \"The BRAIN App: Building Relationships using Artificial Intelligence and Nostalgia\" · 2021-08-15",
+      "kind": "NIH RePORTER record"
+    },
+    "corroboration": {
+      "kind": "OpenStreetMap (city level)",
+      "source_url": "https://www.openstreetmap.org/relation/1931998",
+      "detail": "Winchester, Middlesex County, Massachusetts, 01890, United States — no street address in the registry, so the pin is approximate"
+    },
+    "geo": {
+      "kind": "OpenStreetMap (city level)",
+      "source_url": "https://www.openstreetmap.org/relation/1931998",
+      "detail": "Winchester, Middlesex County, Massachusetts, 01890, United States — no street address in the registry, so the pin is approximate"
+    },
+    "dedupe": [
+      "no entry matches name \"hopeful aging\""
+    ]
+  },
+  {
+    "id": "2b8bd37e90",
+    "status": "pending",
+    "created": "2026-10-31T17:28:09.920Z",
+    "entity": "boston-ai",
+    "entityName": "Boston AI",
+    "module": "radar",
+    "field": "new entity",
+    "op": "addEntity",
+    "confidence": "registry + geocoder",
+    "before": null,
+    "after": {
+      "id": "boston-ai",
+      "name": "Boston AI",
+      "cat": "startup",
+      "loc": "Medfield",
+      "lat": 42.1866,
+      "lng": -71.3055,
+      "approx": true,
+      "url": "",
+      "desc": "NIH NIH SBIR/STTR awardee (2025) for \"An AI Enabled Training Tool for Complex Surgical Suturing Skills\".",
+      "offers": [],
+      "added": "2026-10"
+    },
+    "needs": [
+      "url (official website — no registry lists one; Atlas Weave will not guess a domain)",
+      "offers (what it gives founders — a registry cannot say)"
+    ],
+    "distanceKm": 28,
+    "outsideBoston": true,
+    "westOfWorcester": false,
+    "sources": [
+      "NIH RePORTER"
+    ],
+    "summary": "New Entity Candidate (Human Gate Required): Boston AI, Medfield — 28 km from Boston, outside the Boston core",
+    "evidence": {
+      "source_url": "https://reporter.nih.gov/project-details/11253812",
+      "quote": "BOSTON AI LLC · MEDFIELD, MA · NIH SBIR/STTR · \"An AI Enabled Training Tool for Complex Surgical Suturing Skills\" · 2025-09-01",
+      "kind": "NIH RePORTER record"
+    },
+    "corroboration": {
+      "kind": "OpenStreetMap (city level)",
+      "source_url": "https://www.openstreetmap.org/relation/1948252",
+      "detail": "Medfield, Norfolk County, Massachusetts, 02052, United States — no street address in the registry, so the pin is approximate"
+    },
+    "geo": {
+      "kind": "OpenStreetMap (city level)",
+      "source_url": "https://www.openstreetmap.org/relation/1948252",
+      "detail": "Medfield, Norfolk County, Massachusetts, 02052, United States — no street address in the registry, so the pin is approximate"
+    },
+    "dedupe": [
+      "no entry matches name \"boston ai\""
+    ]
+  },
+  {
+    "id": "b1be777b55",
+    "status": "pending",
+    "created": "2026-10-31T18:29:08.712Z",
+    "entity": "jameel",
+    "entityName": "MIT Jameel Clinic",
+    "module": "matchmaker",
+    "field": "links",
+    "op": "addLink",
+    "confidence": "same-institution (ROR)",
+    "before": [],
+    "after": "socc",
+    "summary": "Link MIT Jameel Clinic → MIT Schwarzman College of Computing: the website names it, and both are units of Massachusetts Institute of Technology",
+    "evidence": {
+      "source_url": "https://jclinic.mit.edu/",
+      "quote": "link \"https://computing.mit.edu/\" → https://computing.mit.edu/",
+      "kind": "official site (names the other unit)"
+    },
+    "corroboration": {
+      "kind": "ROR institution record (domain)",
+      "source_url": "https://ror.org/042nb2s44",
+      "detail": "ROR lists mit.edu for Massachusetts Institute of Technology; both jclinic.mit.edu and computing.mit.edu are on it"
+    }
+  }
+]

@@ -1,0 +1,297 @@
+{
+  "commonwealth-fusion": {
+    "at": "2026-10-31T18:29:09.190Z",
+    "signals": [
+      {
+        "source": "US Census Geocoder + OpenStreetMap",
+        "tier": "exact",
+        "status": "match",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=117+Hospital+Rd%2C+Devens%2C+MA&benchmark=Public_AR_Current&format=json",
+        "humanUrl": "https://www.openstreetmap.org/node/10754819406",
+        "summary": "117 Hospital Rd, Devens, MA: Census 86 m from pin (117 HOSPITAL LN, DEVENS, MA, 01434) · OSM 2 m from pin — both geocoders agree with the pin"
+      },
+      {
+        "source": "ROR",
+        "tier": "exact",
+        "status": "match",
+        "url": "https://api.ror.org/v2/organizations?query=Commonwealth%20Fusion%20Systems",
+        "humanUrl": "https://ror.org/04nj3ht72",
+        "summary": "Commonwealth Fusion Systems (United States) (company) in Devens — same city as the atlas"
+      },
+      {
+        "source": "NSF Awards API",
+        "tier": "exact",
+        "status": "no match",
+        "url": "https://api.nsf.gov/services/v1/awards.json?awardeeStateCode=MA&rpp=10&offset=1&printFields=id%2Ctitle%2CawardeeName%2CawardeeCity%2CawardeeAddress%2CawardeeZipCode%2CstartDate%2Cdate%2CfundsObligatedAmt%2CestimatedTotalAmt%2CfundProgramName&awardeeName=Commonwealth+Fusion+Systems",
+        "summary": "no NSF awardee named \"Commonwealth Fusion Systems\""
+      },
+      {
+        "source": "USAspending.gov (grants)",
+        "tier": "exact",
+        "status": "match",
+        "url": "https://www.usaspending.gov/search/?hash=&keyword=Commonwealth%20Fusion%20Systems",
+        "humanUrl": "https://www.usaspending.gov/award/ASST_NON_DESC0021623_089",
+        "summary": "2 federal grants to COMMONWEALTH FUSION SYSTEMS LLC, $2.8M total — largest from Department of Energy (2021-03-01)"
+      },
+      {
+        "source": "USAspending.gov (contracts)",
+        "tier": "exact",
+        "status": "no match",
+        "url": "https://www.usaspending.gov/search/?hash=&keyword=Commonwealth%20Fusion%20Systems",
+        "summary": "no contracts to a recipient named \"Commonwealth Fusion Systems\" in MA"
+      }
+    ]
+  },
+  "liquid": {
+    "at": "2026-10-31T17:39:08.201Z",
+    "signals": [
+      {
+        "source": "US Census Geocoder + OpenStreetMap",
+        "status": "skipped",
+        "summary": "\"Kendall Sq, Cambridge\" has no street number to geocode (approximate pin)"
+      },
+      {
+        "source": "USAspending.gov (grants)",
+        "status": "no match",
+        "url": "https://www.usaspending.gov/search/?hash=&keyword=Liquid%20AI",
+        "summary": "no grants to a recipient named exactly \"Liquid AI\" in MA"
+      },
+      {
+        "source": "USAspending.gov (contracts)",
+        "status": "no match",
+        "url": "https://www.usaspending.gov/search/?hash=&keyword=Liquid%20AI",
+        "summary": "no contracts to a recipient named exactly \"Liquid AI\" in MA"
+      },
+      {
+        "source": "NSF Awards API",
+        "status": "no match",
+        "url": "https://api.nsf.gov/services/v1/awards.json?awardeeStateCode=MA&rpp=10&offset=1&printFields=id%2Ctitle%2CawardeeName%2CawardeeCity%2CawardeeAddress%2CawardeeZipCode%2CstartDate%2Cdate%2CfundsObligatedAmt%2CestimatedTotalAmt%2CfundProgramName&awardeeName=Liquid+AI",
+        "summary": "no NSF award to an awardee named exactly \"Liquid AI\" in MA"
+      },
+      {
+        "source": "ROR",
+        "status": "no match",
+        "url": "https://api.ror.org/v2/organizations?query=Liquid%20AI",
+        "summary": "no ROR organization named exactly \"Liquid AI\" in Massachusetts"
+      }
+    ]
+  },
+  "valis-insights": {
+    "at": "2026-10-31T17:39:11.388Z",
+    "signals": [
+      {
+        "source": "US Census Geocoder + OpenStreetMap",
+        "status": "match",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=104+Prescott+St%2C+Worcester%2C+MA&benchmark=Public_AR_Current&format=json",
+        "humanUrl": "https://www.openstreetmap.org/way/214192046",
+        "summary": "104 Prescott St, Worcester, MA: Census 38 m from pin (104 PRESCOTT ST, WORCESTER, MA, 01605) · OSM 4 m from pin — both geocoders agree with the pin"
+      },
+      {
+        "source": "USAspending.gov (grants)",
+        "status": "no match",
+        "url": "https://www.usaspending.gov/search/?hash=&keyword=VALIS%20Insights",
+        "summary": "no grants to a recipient named exactly \"VALIS Insights\" in MA"
+      },
+      {
+        "source": "USAspending.gov (contracts)",
+        "status": "match",
+        "url": "https://www.usaspending.gov/search/?hash=&keyword=VALIS%20Insights",
+        "humanUrl": "https://www.usaspending.gov/award/CONT_AWD_68HERC25C0007_6800_-NONE-_-NONE-",
+        "summary": "2 federal contracts to VALIS INSIGHTS, INC., $600K total — largest from Environmental Protection Agency (2024-10-18)"
+      },
+      {
+        "source": "NSF Awards API",
+        "status": "no match",
+        "url": "https://api.nsf.gov/services/v1/awards.json?awardeeStateCode=MA&rpp=10&offset=1&printFields=id%2Ctitle%2CawardeeName%2CawardeeCity%2CawardeeAddress%2CawardeeZipCode%2CstartDate%2Cdate%2CfundsObligatedAmt%2CestimatedTotalAmt%2CfundProgramName&awardeeName=VALIS+Insights",
+        "summary": "no NSF award to an awardee named exactly \"VALIS Insights\" in MA"
+      },
+      {
+        "source": "ROR",
+        "status": "no match",
+        "url": "https://api.ror.org/v2/organizations?query=VALIS%20Insights",
+        "summary": "no ROR organization named exactly \"VALIS Insights\" in Massachusetts"
+      }
+    ]
+  },
+  "jameel": {
+    "at": "2026-10-31T18:30:40.614Z",
+    "signals": [
+      {
+        "source": "ROR",
+        "tier": "parent",
+        "status": "match",
+        "url": "https://api.ror.org/v2/organizations?query=Massachusetts%20Institute%20of%20Technology",
+        "humanUrl": "https://ror.org/042nb2s44",
+        "summary": "jclinic.mit.edu is a subdomain of mit.edu, which ROR lists for Massachusetts Institute of Technology (Cambridge) — MIT Jameel Clinic is a unit of Massachusetts Institute of Technology"
+      },
+      {
+        "source": "OpenStreetMap (place name)",
+        "tier": "osm-poi",
+        "status": "no match",
+        "url": "https://www.openstreetmap.org/search?query=MIT%20Jameel%20Clinic%2C%20Cambridge%2C%20Massachusetts",
+        "summary": "no OpenStreetMap place named \"MIT Jameel Clinic\" near Cambridge"
+      },
+      {
+        "source": "Website addresses (Scout)",
+        "tier": "exact",
+        "status": "refused",
+        "humanUrl": "https://jclinic.mit.edu/",
+        "summary": "\"77 Massachusetts Ave Cambridge, MA 02139\" (refused: generic/mailing/venue)"
+      },
+      {
+        "source": "ROR",
+        "tier": "exact",
+        "status": "no match",
+        "url": "https://api.ror.org/v2/organizations?query=MIT%20Jameel%20Clinic",
+        "summary": "no ROR organization named \"MIT Jameel Clinic\" or \"jameel clinic\" — resolved via parent above"
+      },
+      {
+        "source": "OpenAlex",
+        "tier": "parent",
+        "status": "match",
+        "url": "https://api.openalex.org/institutions/ror:042nb2s44?mailto=atlas-weave@users.noreply.github.com",
+        "humanUrl": "https://openalex.org/I63966007",
+        "summary": "Massachusetts Institute of Technology: 399,020 research works, 79,793,428 citations — the talent base MIT Jameel Clinic draws on"
+      },
+      {
+        "source": "NSF Awards API",
+        "tier": "parent",
+        "status": "no match",
+        "url": "https://api.nsf.gov/services/v1/awards.json?awardeeStateCode=MA&rpp=10&offset=1&printFields=id%2Ctitle%2CawardeeName%2CawardeeCity%2CawardeeAddress%2CawardeeZipCode%2CstartDate%2Cdate%2CfundsObligatedAmt%2CestimatedTotalAmt%2CfundProgramName&keyword=%22jameel+clinic%22&awardeeName=Massachusetts+Institute+of+Technology",
+        "summary": "no NSF award to Massachusetts Institute of Technology mentions \"jameel clinic\" in its title or abstract"
+      },
+      {
+        "source": "USAspending.gov (grants)",
+        "tier": "parent",
+        "status": "no match",
+        "url": "https://www.usaspending.gov/search/?hash=&keyword=jameel%20clinic",
+        "summary": "no federal grant to Massachusetts Institute of Technology mentions \"jameel clinic\""
+      },
+      {
+        "source": "ProPublica Nonprofit Explorer (IRS 990)",
+        "tier": "parent",
+        "status": "match",
+        "url": "https://projects.propublica.org/nonprofits/api/v2/search.json?q=Massachusetts%20Institute%20of%20Technology&state%5Bid%5D=MA",
+        "humanUrl": "https://projects.propublica.org/nonprofits/organizations/42103594",
+        "summary": "MIT Jameel Clinic files under its parent: Massachusetts Institute Of Technology, Cambridge (EIN 42103594) — the unit has no 990 of its own"
+      },
+      {
+        "source": "Institution graph",
+        "tier": "parent",
+        "status": "refused",
+        "summary": "9 other Massachusetts Institute of Technology unit(s) in the atlas (MIT CSAIL, MIT Media Lab, MIT-IBM Computing Research Lab, MIT delta v…) — not linked: sharing a domain is not a relationship unless the website names them"
+      }
+    ]
+  },
+  "boston-seed": {
+    "at": "2026-10-31T18:29:11.403Z",
+    "signals": [
+      {
+        "source": "OpenStreetMap (place name)",
+        "tier": "osm-poi",
+        "status": "no match",
+        "url": "https://www.openstreetmap.org/search?query=Boston%20Seed%20Capital%2C%20Wellesley%20Hills%2C%20Massachusetts",
+        "summary": "no OpenStreetMap place named \"Boston Seed Capital\" near Wellesley Hills"
+      },
+      {
+        "source": "Website addresses (Scout)",
+        "tier": "exact",
+        "status": "no match",
+        "summary": "no street address on the 4 pages read"
+      },
+      {
+        "source": "ROR",
+        "tier": "exact",
+        "status": "no match",
+        "url": "https://api.ror.org/v2/organizations?query=Boston%20Seed%20Capital",
+        "summary": "no ROR organization named \"Boston Seed Capital\""
+      }
+    ]
+  },
+  "foundersedge": {
+    "at": "2026-10-31T18:29:12.609Z",
+    "signals": [
+      {
+        "source": "US Census Geocoder + OpenStreetMap",
+        "tier": "exact",
+        "status": "match",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=100+Summer+St%2C+Boston%2C+MA&benchmark=Public_AR_Current&format=json",
+        "humanUrl": "https://www.openstreetmap.org/way/29650695",
+        "summary": "100 Summer St, Boston, MA: Census 33 m from pin (100 SUMMER ST, BOSTON, MA, 02110) · OSM 5 m from pin — both geocoders agree with the pin"
+      },
+      {
+        "source": "ROR",
+        "tier": "exact",
+        "status": "no match",
+        "url": "https://api.ror.org/v2/organizations?query=FoundersEdge",
+        "summary": "no ROR organization named \"FoundersEdge\""
+      }
+    ]
+  },
+  "material": {
+    "at": "2026-10-31T18:29:14.626Z",
+    "signals": [
+      {
+        "source": "OpenStreetMap (place name)",
+        "tier": "osm-poi",
+        "status": "no match",
+        "url": "https://www.openstreetmap.org/search?query=Material%20Impact%2C%20Boston%2C%20Massachusetts",
+        "summary": "no OpenStreetMap place named \"Material Impact\" near Boston"
+      },
+      {
+        "source": "Website addresses (Scout)",
+        "tier": "exact",
+        "status": "no match",
+        "summary": "no street address on the 3 pages read"
+      },
+      {
+        "source": "ROR",
+        "tier": "exact",
+        "status": "no match",
+        "url": "https://api.ror.org/v2/organizations?query=Material%20Impact",
+        "summary": "no ROR organization named \"Material Impact\""
+      }
+    ]
+  },
+  "redhat-bos": {
+    "at": "2026-10-31T18:40:08.429Z",
+    "signals": [
+      {
+        "source": "US Census Geocoder + OpenStreetMap",
+        "tier": "exact",
+        "status": "match",
+        "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=300+A+St%2C+Boston%2C+MA&benchmark=Public_AR_Current&format=json",
+        "humanUrl": "https://www.openstreetmap.org/way/29964507",
+        "summary": "300 A St, Boston, MA: Census 103 m from pin (300 A ST, BOSTON, MA, 02210) · OSM 138 m from pin — both geocoders agree with the pin"
+      },
+      {
+        "source": "ROR",
+        "tier": "exact",
+        "status": "no match",
+        "url": "https://api.ror.org/v2/organizations?query=Red%20Hat",
+        "summary": "no ROR organization named \"Red Hat (Boston)\""
+      },
+      {
+        "source": "NSF Awards API",
+        "tier": "exact",
+        "status": "no match",
+        "url": "https://api.nsf.gov/services/v1/awards.json?awardeeStateCode=MA&rpp=10&offset=1&printFields=id%2Ctitle%2CawardeeName%2CawardeeCity%2CawardeeAddress%2CawardeeZipCode%2CstartDate%2Cdate%2CfundsObligatedAmt%2CestimatedTotalAmt%2CfundProgramName&awardeeName=Red+Hat",
+        "summary": "no NSF awardee named \"Red Hat (Boston)\""
+      },
+      {
+        "source": "USAspending.gov (grants)",
+        "tier": "exact",
+        "status": "no match",
+        "url": "https://www.usaspending.gov/search/?hash=&keyword=Red%20Hat",
+        "summary": "no grants to a recipient named \"Red Hat (Boston)\" in MA"
+      },
+      {
+        "source": "USAspending.gov (contracts)",
+        "tier": "exact",
+        "status": "no match",
+        "url": "https://www.usaspending.gov/search/?hash=&keyword=Red%20Hat",
+        "summary": "no contracts to a recipient named \"Red Hat (Boston)\" in MA"
+      }
+    ]
+  }
+}
